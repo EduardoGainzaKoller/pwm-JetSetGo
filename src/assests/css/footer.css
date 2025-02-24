@@ -12,36 +12,36 @@ html, body {
     flex-direction: column;
 }
 
-/* Contenedor principal para forzar que el footer se quede abajo */
+
 .main-content {
-    flex: 1; /* Ocupa todo el espacio disponible */
+    flex: 1;
 }
 
 /* Footer */
 .main-footer {
     width: 100%;
-    background-color: white; /* Fondo blanco */
-    color: #333; /* Texto oscuro para contraste */
+    background-color: white;
+    color: #333;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
     position: relative;
-    border-top: 1px solid #ddd; /* Línea superior para separación */
+    border-top: 1px solid #ddd;
 }
 
-/* Contenedor de columnas */
+
 .footer-columns {
     display: flex;
     gap: 80px;
 }
 
-/* Columna centrada */
+
 .center-column {
     margin-left: 50px;
 }
 
-/* Columnas del footer */
+
 .footer-column h3 {
     font-size: 18px;
     margin-bottom: 10px;
@@ -57,17 +57,17 @@ html, body {
 
 .footer-column ul li a {
     text-decoration: none;
-    color: #333; /* Texto oscuro */
+    color: #333;
 }
 
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
 
-/* Logo JetSetGo.com */
+
 .footer-logo {
-    font-size: 32px; /* Más grande */
+    font-size: 32px;
     font-weight: bold;
     margin-left: 100px;
-    color: #333; /* Color oscuro */
+    color: #333;
 }
