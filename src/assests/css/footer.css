@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajuste para que el footer siempre esté abajo */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor principal para forzar que el footer se quede abajo */
+.main-content {
+    flex: 1; /* Ocupa todo el espacio disponible */
+}
+
+/* Footer */
+.main-footer {
+    width: 100%;
+    background-color: white; /* Fondo blanco */
+    color: #333; /* Texto oscuro para contraste */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: relative;
+    border-top: 1px solid #ddd; /* Línea superior para separación */
+}
+
+/* Contenedor de columnas */
+.footer-columns {
+    display: flex;
+    gap: 80px;
+}
+
+/* Columna centrada */
+.center-column {
+    margin-left: 50px;
+}
+
+/* Columnas del footer */
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333; /* Texto oscuro */
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Logo JetSetGo.com */
+.footer-logo {
+    font-size: 32px; /* Más grande */
+    font-weight: bold;
+    margin-left: 100px;
+    color: #333; /* Color oscuro */
+}

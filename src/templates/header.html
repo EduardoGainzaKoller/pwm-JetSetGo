@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="../assests/css/header.css"> <!-- Enlace al CSS -->
+</head>
+
+
+<body>
+
+<!-- Barra superior -->
+<header class="main-header">
+    <div class="logo">JetSetGo.com</div>
+</header>
+
+<div class="options-container">
+
+    <nav class="options-menu">
+        <div class="option">
+            <img src="icons/hotel.png" alt="Hoteles">
+            <span>Hoteles</span>
+        </div>
+        <div class="option">
+            <img src="icons/plane.png" alt="Vuelos">
+            <span>Vuelos</span>
+        </div>
+        <div class="option">
+            <img src="icons/car.png" alt="Alquiler de coches">
+            <span>Alquiler de coches</span>
+        </div>
+    </nav>
+
+    <!-- Opciones a la derecha -->
+    <div class="right-options">
+        <!-- Selector de moneda -->
+        <select class="currency-selector">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+
+        <div class="icon-circle">
+            <img src="icons/interrogacion.png" alt="Icono">
+        </div>
+
+        <!-- Icono con menú desplegable -->
+        <div class="dropdown">
+            <div class="icon-circle dropdown-toggle">
+                <img src="icons/banderaESP.png" alt="Menú">
+            </div>
+            <div class="dropdown-menu">
+                <a href="#">Perfil</a>
+                <a href="#">Ajustes</a>
+                <a href="#">Cerrar sesión</a>
+            </div>
+        </div>
+
+        <!-- Botones de sesión -->
+        <button class="btn login-btn">Iniciar sesión</button>
+        <button class="btn register-btn">Registrarse</button>
+    </div>
+</div>
+
+</body>
+</html>
