@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barra de Búsqueda</title>
+  <link rel="stylesheet" href="../assests/css/hotelsearch.css">
+</head>
+<body>
+
+<div class="search-bar">
+  <div class="search-section">
+    <input type="text" placeholder="Lugar">
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="search-section date-inputs">
+    <input type="text" placeholder="DD" maxlength="2">
+    <span>/</span>
+    <input type="text" placeholder="MM" maxlength="2">
+    <span>/</span>
+    <input type="text" placeholder="YYYY" maxlength="4">
+  </div>
+
+  <div class="separator"></div>
+
+  <div class="search-section">
+    <select id="adults">
+      <option value="1">1 adulto</option>
+      <option value="2" selected>2 adultos</option>
+      <option value="3">3 adultos</option>
+      <option value="4">4 adultos</option>
+    </select>
+
+    <select id="children">
+      <option value="0" selected>0 niños</option>
+      <option value="1">1 niño</option>
+      <option value="2">2 niños</option>
+      <option value="3">3 niños</option>
+    </select>
+
+    <select id="rooms">
+      <option value="1" selected>1 habitación</option>
+      <option value="2">2 habitaciones</option>
+      <option value="3">3 habitaciones</option>
+    </select>
+  </div>
+
+  <button class="search-btn"><i class="fas fa-search"></i></button>
+</div>
+
+</body>
+</html>
