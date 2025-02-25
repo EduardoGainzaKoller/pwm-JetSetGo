@@ -1,0 +1,69 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor general */
+.oferta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centra en la pantalla */
+    background-color: #f8f8f8;
+}
+
+/* Tarjeta de oferta */
+.oferta-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 15px; /* Espacio interior */
+}
+
+/* Contenedor de imagen (Caja más pequeña dentro de la tarjeta) */
+.oferta-img-container {
+    width: 90%; /* Más pequeña que la tarjeta */
+    height: 140px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 15px; /* Centrada con espacio abajo */
+}
+
+/* Imagen con esquinas redondeadas */
+.oferta-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Información del destino */
+.oferta-info {
+    padding: 10px;
+}
+
+.oferta-destino {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.oferta-detalles,
+.oferta-fechas {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.oferta-precio {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}

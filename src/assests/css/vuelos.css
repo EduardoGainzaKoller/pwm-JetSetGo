@@ -1,0 +1,122 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor de vuelos */
+.vuelos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Tarjeta de vuelo con ida y vuelta */
+.vuelo-card {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    background: #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+
+/* Contenedor de vuelos (ida y vuelta) */
+.vuelos-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre vuelos */
+    flex-grow: 1;
+}
+
+/* Cada vuelo (ida o vuelta) */
+.vuelo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Icono de avión */
+.vuelo-icono {
+    width: 40px;
+    height: 40px;
+}
+
+/* Contenedor de detalles */
+.vuelo-detalles {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espacio entre textos */
+    flex: 2; /* Que ocupe más espacio */
+}
+
+/* Texto alineado mejor */
+.vuelo-tipo, .vuelo-duracion {
+    text-align: center;
+    flex: 1;
+}
+
+/* Estilos generales del texto */
+.vuelo-horario {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.vuelo-aeropuerto,
+.vuelo-tipo,
+.vuelo-duracion {
+    color: #333;
+    font-size: 14px;
+}
+
+/* Barra vertical entre información del vuelo y precio */
+.vuelo-separador {
+    width: 2px;
+    height: 100%;
+    background: #aaa;
+    margin: 0 20px;
+}
+
+/* Precio y botón */
+.vuelo-precio-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+}
+
+/* Precio */
+.vuelo-precio {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Botón de seleccionar */
+.vuelo-btn {
+    background: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 100%; /* Para que ocupe todo el espacio disponible */
+    text-align: center;
+}
+
+.vuelo-btn:hover {
+    background: #dcdcdc;
+}
