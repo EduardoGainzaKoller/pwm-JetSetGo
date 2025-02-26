@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JetSetGo</title>
+
+  <script src="../xlu-include-file.js"></script>
+
+  <!-- Enlace al archivo CSS externo -->
+  <link rel="stylesheet" href="../assests/css/customerService.css">
+</head>
+
+<body>
+
+<header xlu-include-file="../templates/header.html"></header>
+
+<main>
+  <section class="contact-form">
+    <div class="form-container">
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos">
+
+        <label for="email">Dirección de e-mail</label>
+        <input type="email" id="email" name="email">
+
+        <label for="mensaje">Tu mensaje</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer xlu-include-file="../templates/footer.html"></footer>
+
+<script>
+  xLuIncludeFile();
+</script>
+
+</body>
+
+</html>

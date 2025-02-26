@@ -1,0 +1,81 @@
+/* Asegura que el body ocupe toda la pantalla */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Centrar el formulario y mejorar su diseño */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Esto empuja el footer hacia abajo */
+    padding: 20px;
+}
+
+/* Estilo del formulario más limpio y profesional */
+.form-container {
+    background: white;
+    padding: 30px;
+    width: 45%;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para los inputs */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: vertical;
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* Estilo de los inputs y textarea */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borde más claro */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Botón más limpio y moderno */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease-in-out;
+}
+
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Hace que el contenido principal ocupe el espacio disponible */
+main {
+    flex-grow: 1;
+}
+
+/* Mantiene el footer siempre al final */
+footer {
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
