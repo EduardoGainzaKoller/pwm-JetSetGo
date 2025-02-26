@@ -1,0 +1,18 @@
+/* styles.css */
+ul.ofertas {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el padding por defecto */
+    margin: 0;
+    /* Elimina el margin por defecto */
+    display: flex;
+    /* Usa flexbox para alinear los elementos en una fila */
+    justify-content: center;
+}
+
+
+ul.ofertas li {
+    margin-right: 25px;
+    /* Espacio entre los elementos, puedes ajustar el valor */
+}
