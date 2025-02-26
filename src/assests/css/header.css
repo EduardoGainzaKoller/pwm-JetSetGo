@@ -16,6 +16,11 @@
     display: flex;
     align-items: center;
     padding-left: 20px;
+    font-family: Arial, sans-serif !important;
+}
+
+.option span {
+    font-family: Arial, sans-serif !important;
 }
 
 /* Estilo del logo */
