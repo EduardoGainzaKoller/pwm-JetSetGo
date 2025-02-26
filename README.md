@@ -1,4 +1,4 @@
-#✈️ JetSetGo.com
+# ✈ JetSetGo.com
 
 ## Integrantes:
   - Álvaro Rodríguez Miranda
