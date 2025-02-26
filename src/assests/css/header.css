@@ -10,7 +10,7 @@
     width: 100%;
     height: 60px;
     background-color: #ffb46d;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -28,12 +28,13 @@
 /* Contenedor de opciones debajo del header */
 .options-container {
     display: flex;
-    justify-content: space-between; /* Separa las opciones a la izquierda y derecha */
+    justify-content: space-between;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 0%;
     padding: 10px 20px;
-    background-color: #ffffff; /* Fondo claro */
+    background-color: #ffffff;
     border-bottom: 1px solid #ddd;
+    transform: translateY(2px);
 }
 
 /* Menú de opciones a la izquierda */
