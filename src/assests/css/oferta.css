@@ -9,11 +9,12 @@
 /* Contenedor general */
 .oferta-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    padding: 50px 0;
     background-color: transparent;
 }
+
 
 
 .oferta-card {
@@ -21,26 +22,22 @@
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 300px;
+    width: 240px;
     text-align: center;
     padding: 15px;
-    /* Espacio interior */
     border: 1px solid rgb(164, 160, 160);
-    /* Borde negro exterior */
 }
 
-/* Contenedor de imagen (Caja más pequeña dentro de la tarjeta) */
+
 .oferta-img-container {
     width: 90%;
-    /* Más pequeña que la tarjeta */
     height: 140px;
     border-radius: 10px;
     overflow: hidden;
     margin: 0 auto 15px;
-    /* Centrada con espacio abajo */
 }
 
-/* Imagen con esquinas redondeadas */
+
 .oferta-img-container img {
     width: 100%;
     height: 100%;
@@ -48,7 +45,7 @@
     border-radius: 10px;
 }
 
-/* Información del destino */
+
 .oferta-info {
     padding: 10px;
 }

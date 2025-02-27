@@ -30,6 +30,13 @@
     color: white;
 }
 
+.logo a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+
 /* Contenedor de opciones debajo del header */
 .options-container {
     display: flex;
