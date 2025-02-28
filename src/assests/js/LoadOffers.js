@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     for (let i = 0; i < numOfertas; i++) {
         let li = document.createElement("li");
-        li.setAttribute("xlu-include-file", "../templates/oferta.html");
+        li.setAttribute("xlu-include-file", "../templates/offers.html");
         offersList.appendChild(li);
     }
 
