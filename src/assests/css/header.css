@@ -153,7 +153,15 @@
     color: white;
 }
 
+.login-btn:hover {
+    background: #ff7f50;
+}
+
 .register-btn {
     background: blue;
     color: white;
+}
+
+.register-btn:hover {
+    background: #ff7f50;
 }
