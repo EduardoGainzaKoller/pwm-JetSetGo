@@ -41,11 +41,12 @@
 }
 
 .search-btn {
-    background: none;
-    border: none;
+    background: #ff7008;
+    border-radius: 10px;
+    width: 70px;
     cursor: pointer;
     padding: 10px;
-    color: #d3bdae;
+    color: #fdfdfd;
     font-size: 18px;
 }
 
