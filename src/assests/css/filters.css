@@ -1,3 +1,7 @@
+* {
+    font-family: system-ui, -apple-system, Arial, sans-serif;
+}
+
 .filter-container {
     width: 20%;
     height: 70%;
@@ -39,7 +43,7 @@ button {
     margin-top: auto;
     padding: 10px;
     border: none;
-    background-color: #007bff;
+    background-color: #0000FFFF;
     color: white;
     font-size: 16px;
     border-radius: 5px;
@@ -48,5 +52,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff7f50;
 }
