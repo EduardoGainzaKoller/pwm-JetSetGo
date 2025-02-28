@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #ffff;
 }
 
 /* Tarjeta de vuelo con ida y vuelta */
@@ -104,7 +104,7 @@
 
 /* Botón de seleccionar */
 .vuelo-btn {
-    background: white;
+    background: blue;
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -118,5 +118,5 @@
 }
 
 .vuelo-btn:hover {
-    background: #dcdcdc;
+    background: #ff7f50;
 }

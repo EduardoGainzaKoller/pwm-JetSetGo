@@ -1,0 +1,32 @@
+/* Reset básico para eliminar márgenes y relleno por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aseguramos que header y footer ocupen el ancho completo (si así lo deseas) */
+header, footer {
+    width: 100%;
+}
+
+/* El filtro flota a la izquierda */
+filtro {
+    float: left;
+    /* Si quieres darle un ancho fijo, descomenta:
+       width: 200px;
+    */
+}
+
+/* La lista de vuelos también flota a la izquierda,
+   pero con margen para separarla un poco del filtro */
+ul {
+    align-content: center;
+    margin-left: 260px; /* Ajusta el desplazamiento hacia la derecha */
+    list-style: none;  /* Opcional: elimina viñetas de la lista */
+}
+
+/* Para que el footer no se superponga a los elementos flotados */
+footer {
+    clear: both;
+}
