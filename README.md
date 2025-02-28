@@ -21,17 +21,18 @@ JetSetGo es un proyecto pensado para facilitar las vacaciones a nuestros cliente
   
 3. **Busqueda y reserva de hoteles**
    - La página debe permitir la búsqueda de hoteles mediante lugar, fecha y número de personas y habitaciones.
-   - El sistema debe mostrar todos los vuelos disponibles con precios y aerolíneas.
-   - El sistema debe tener un filtro para filtrar los vuelos.
+   - El sistema debe mostrar todos los hoteles disponibles con precios y marcas.
+   - El sistema debe tener un filtro para filtrar los hoteles.
   
   
 4. **Alquiler de coches**
    - La página debe permitir el alquiler de coches mediante lugar, fecha de recogida y fecha de dejada.
    - El sistema debe mostrar todos los coches en alquiler disponibles con precio.
-  
+
   
 5. **Proceso de pago**
    - Cuando se vaya a querer pagar un vuelo, hotel o alquilar un coche la página va a redireccionar al cliente a una página de pago segura externa a nuestra web.
+
 
 6. **Soporte al cliente**
   - Los usuarios deben poder contactar con el soporte mediante un cuadro de texto y enviar ese mensaje al correo de soporte de la web.
