@@ -1,21 +1,12 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* Contenedor de vuelos */
 .vuelos-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: #ffff;
+    font-family: system-ui, arial, sans-serif;
 }
 
-/* Tarjeta de vuelo con ida y vuelta */
 .vuelo-card {
     display: flex;
     align-items: center;
@@ -28,15 +19,14 @@
     justify-content: space-between;
 }
 
-/* Contenedor de vuelos (ida y vuelta) */
 .vuelos-info {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Espacio entre vuelos */
+    gap: 15px;
     flex-grow: 1;
 }
 
-/* Cada vuelo (ida o vuelta) */
+
 .vuelo {
     display: flex;
     align-items: center;
@@ -45,27 +35,27 @@
     width: 100%;
 }
 
-/* Icono de avión */
+
 .vuelo-icono {
     width: 40px;
     height: 40px;
 }
 
-/* Contenedor de detalles */
+
 .vuelo-detalles {
     display: flex;
     flex-direction: column;
-    gap: 5px; /* Espacio entre textos */
-    flex: 2; /* Que ocupe más espacio */
+    gap: 5px;
+    flex: 2;
 }
 
-/* Texto alineado mejor */
+
 .vuelo-tipo, .vuelo-duracion {
     text-align: center;
     flex: 1;
 }
 
-/* Estilos generales del texto */
+
 .vuelo-horario {
     font-weight: bold;
     font-size: 16px;
@@ -78,7 +68,6 @@
     font-size: 14px;
 }
 
-/* Barra vertical entre información del vuelo y precio */
 .vuelo-separador {
     width: 2px;
     height: 100%;
@@ -86,7 +75,6 @@
     margin: 0 20px;
 }
 
-/* Precio y botón */
 .vuelo-precio-btn {
     display: flex;
     flex-direction: column;
@@ -95,14 +83,12 @@
     min-width: 150px;
 }
 
-/* Precio */
 .vuelo-precio {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 5px;
 }
 
-/* Botón de seleccionar */
 .vuelo-btn {
     background: blue;
     border: none;

@@ -1,12 +1,9 @@
 .filter-container {
-    width: 250px;
-    margin-top: 9%;
+    width: 20%;
     height: 70%;
     background-color: #f8f9fa;
     padding: 20px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    float: left;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -51,5 +48,5 @@ button {
 }
 
 button:hover {
-    background-color: #ff7f50;
+    background-color: #0056b3;
 }
