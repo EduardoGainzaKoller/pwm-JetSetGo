@@ -19,7 +19,7 @@ JetSetGo es un proyecto pensado para facilitar las vacaciones a nuestros cliente
    - El sistema debe tener un filtro para filtrar los vuelos.
 
   
-3. **Busqueda y reserva de vuelos**
+3. **Busqueda y reserva de hoteles**
    - La página debe permitir la búsqueda de hoteles mediante lugar, fecha y número de personas y habitaciones.
    - El sistema debe mostrar todos los vuelos disponibles con precios y aerolíneas.
    - El sistema debe tener un filtro para filtrar los vuelos.
