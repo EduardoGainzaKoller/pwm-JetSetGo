@@ -50,6 +50,6 @@ HACERLO(SI HAY, HABLAR DE LOS JAVASCRIPT o ORGANIZACIÓN DE HOJAS DE ESTILO)
 
 ## Enlaces a Fiigma y Trello
 [Figma](https://www.figma.com/design/UqzSpLLPJTngih7tOhRIzh/PWM-JetSetGo?node-id=0-1&p=f&t=ME6q2TDeaf2HAh1O-0)
-[Trello](https://trello.com/b/XgXWNnZ7/pwm-sprint1)
+[Trello](https://trello.com/invite/b/67be606cf130fb9355b0611c/ATTIaf22f69344d8496229faf30b1fab0c11888CA7D6/pwm-sprint1)
 
 
