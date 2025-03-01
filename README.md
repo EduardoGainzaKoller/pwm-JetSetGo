@@ -45,17 +45,18 @@ En la ruta /pwm-JetSetGo/src/mocks se encuentran tanto los pdfs de los mockups c
 
 - **/pwm-JetSetGo/src/templates/header.html y /pwm-JetSetGo/src/templates/footer.html** se utilizan en todas las páginas programadas.
 - **/pwm-JetSetGo/src/templates/filters.html** se utiliza en /pwm-JetSetGo/src/pages/flightSearch.html, /pwm-JetSetGo/src/pages/carSearch.html, /pwm-JetSetGo/src/pages/hotelSearch.html.
-- **/pwm-JetSetGo/src/templates/flights.html** solo se utiliza en /pwm-JetSetGo/src/pages/flightSearch.html
-- **/pwm-JetSetGo/src/templates/hotels.html** solo se utiliza en /pwm-JetSetGo/src/pages/hotelSearch.html
+- **/pwm-JetSetGo/src/templates/flights.html** solo se utiliza en /pwm-JetSetGo/src/pages/flightSearch.html.
+- **/pwm-JetSetGo/src/templates/hotels.html** solo se utiliza en /pwm-JetSetGo/src/pages/hotelSearch.html.
 - **/pwm-JetSetGo/src/templates/offers.html** se utiliza en /pwm-JetSetGo/src/pages/home.html, /pwm-JetSetGo/src/pages/home-flights.html y /pwm-JetSetGo/src/pages/home-cars.html.
 - **/pwm-JetSetGo/src/templates/search-car-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home-cars.html y /pwm-JetSetGo/src/pages/carSearch.html.
 - **/pwm-JetSetGo/src/templates/search-fly-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home-flights.html y /pwm-JetSetGo/src/pages/flightSearch.html.
-- **/pwm-JetSetGo/src/templates/search-hotel-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home.html y /pwm-JetSetGo/src/pages/hotelSearch.html
+- **/pwm-JetSetGo/src/templates/search-hotel-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home.html y /pwm-JetSetGo/src/pages/hotelSearch.html.
+- **/pwm-JetSetGo/src/templates/cars.html** se utiliza en /pwm-JetSetGo/src/pages/carSearch.html.
 
 ## Listado de páginas html del proyecto
 - **/pwm-JetSetGo/src/pages/home.html** implementa el mockup Home-Hoteles
-- **/pwm-JetSetGo/src/pages/home-flights.html** implementa el mockup Home-Vuelos
-- **/pwm-JetSetGo/src/pages/home-cars.html** implementa el mockup Home-Coches
+- **/pwm-JetSetGo/src/pages/homeFlights.html** implementa el mockup Home-Vuelos
+- **/pwm-JetSetGo/src/pages/homeCars.html** implementa el mockup Home-Coches
 - **/pwm-JetSetGo/src/pages/hotelSearch.html** implementa el mockup Compra-Hoteles
 - **/pwm-JetSetGo/src/pages/flightSearch.html** implementa el mockup Compra-Vuelos
 - **/pwm-JetSetGo/src/pages/carSearch.html** implementa el mockup Compra-Coches
