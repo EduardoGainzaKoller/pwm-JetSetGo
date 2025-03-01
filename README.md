@@ -52,16 +52,16 @@ HACERLO
 - **/pwm-JetSetGo/src/templates/search-hotel-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home.html y /pwm-JetSetGo/src/pages/hotelSearch.html
 
 ## Listado de páginas html del proyecto
-/pwm-JetSetGo/src/pages/home.html
-/pwm-JetSetGo/src/pages/home-flights.html
-/pwm-JetSetGo/src/pages/home-cars.html
-/pwm-JetSetGo/src/pages/hotelSearch.html
-/pwm-JetSetGo/src/pages/flightSearch.html
-/pwm-JetSetGo/src/pages/carSearch.html
-/pwm-JetSetGo/src/pages/logIn.html
-/pwm-JetSetGo/src/pages/frequentsQuestions.html
-/pwm-JetSetGo/src/pages/customerService.html
-/pwm-JetSetGo/src/pages/footerSection.html
+- /pwm-JetSetGo/src/pages/home.html
+- /pwm-JetSetGo/src/pages/home-flights.html
+- /pwm-JetSetGo/src/pages/home-cars.html
+- /pwm-JetSetGo/src/pages/hotelSearch.html
+- /pwm-JetSetGo/src/pages/flightSearch.html
+- /pwm-JetSetGo/src/pages/carSearch.html
+- /pwm-JetSetGo/src/pages/logIn.html
+- /pwm-JetSetGo/src/pages/frequentsQuestions.html
+- /pwm-JetSetGo/src/pages/customerService.html
+- /pwm-JetSetGo/src/pages/footerSection.html
 
 ## Otros aspectos del proyecto que tener en consideración en la evaluación
 
