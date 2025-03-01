@@ -1,0 +1,106 @@
+.cars-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffff;
+    font-family: system-ui, arial, sans-serif;
+}
+
+.car-card {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    background: #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+
+.cars-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+}
+
+
+.car {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.coche-icono {
+    width: 200px;
+    height: 200px;
+}
+
+
+.coche-detalles {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 2;
+    margin-bottom: 14%;
+}
+
+
+.valoracion-coche, .valoracion-coche {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 20%;
+}
+
+
+.nombre-coche {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.descripcion-coche,
+.valoracion-coche {
+    color: #333;
+    font-size: 14px;
+}
+
+
+.coche-precio-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+}
+
+.coche-precio {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 80%;
+}
+
+.coche-btn {
+    background: blue;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #ffff;
+    transition: 0.3s;
+    width: 13%;
+    text-align: right;
+    margin-left: 80%;
+}
+
+.coche-btn:hover {
+    background: #ff7f50;
+}

@@ -23,7 +23,7 @@
     font-family: Arial, sans-serif !important;
 }
 
-/* Estilo del logo */
+
 .logo {
     font-size: 20px;
     font-weight: bold;
@@ -37,7 +37,7 @@
 }
 
 
-/* Contenedor de opciones debajo del header */
+
 .options-container {
     display: flex;
     justify-content: space-between;
@@ -49,40 +49,40 @@
     transform: translateY(2px);
 }
 
-/* Menú de opciones a la izquierda */
+
 .options-menu {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-/* Cada opción */
+
 .option {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-/* Iconos de opciones */
+
 .option img {
     width: 24px;
     height: 24px;
 }
 
-/* Texto de opciones */
+
 .option span {
     font-size: 14px;
     color: #333;
 }
 
-/* Opciones a la derecha */
+
 .right-options {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-/* Selector de moneda */
+
 .currency-selector {
     padding: 5px;
     border: none;
@@ -91,7 +91,7 @@
     cursor: pointer;
 }
 
-/* Estilos para los círculos */
+
 .icon-circle {
     width: 35px;
     height: 35px;
@@ -104,18 +104,18 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos de los iconos dentro de los círculos */
+
 .icon-circle img {
     width: 20px;
     height: 20px;
 }
 
-/* Menú desplegable */
+
 .dropdown {
     position: relative;
 }
 
-/* Ocultamos el menú por defecto */
+
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -128,7 +128,7 @@
     width: 120px;
 }
 
-/* Estilos de los enlaces en el menú */
+
 .dropdown-menu a {
     display: block;
     padding: 10px;
@@ -140,7 +140,7 @@
     background: #f1f1f1;
 }
 
-/* Botones de sesión */
+
 .btn {
     padding: 8px 12px;
     border: none;
