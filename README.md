@@ -54,16 +54,17 @@ En la ruta /pwm-JetSetGo/src/mocks se encuentran tanto los pdfs de los mockups c
 - **/pwm-JetSetGo/src/templates/cars.html** se utiliza en /pwm-JetSetGo/src/pages/carSearch.html.
 
 ## Listado de páginas html del proyecto
-- **/pwm-JetSetGo/src/pages/home.html** implementa el mockup Home-Hoteles
-- **/pwm-JetSetGo/src/pages/homeFlights.html** implementa el mockup Home-Vuelos
-- **/pwm-JetSetGo/src/pages/homeCars.html** implementa el mockup Home-Coches
-- **/pwm-JetSetGo/src/pages/hotelSearch.html** implementa el mockup Compra-Hoteles
-- **/pwm-JetSetGo/src/pages/flightSearch.html** implementa el mockup Compra-Vuelos
-- **/pwm-JetSetGo/src/pages/carSearch.html** implementa el mockup Compra-Coches
-- **/pwm-JetSetGo/src/pages/logIn.html** implementa el mockup Inicio sesion/Registro
-- **/pwm-JetSetGo/src/pages/frequentsQuestions.html** implementa el mockup Preguntas Frecuentes
-- **/pwm-JetSetGo/src/pages/customerService.html** implementa el mockup Soporte
-- **/pwm-JetSetGo/src/pages/footerSection.html** implementa el mockup Acerca de 
+- La página web se inicia en **/pwm-JetSetGo/public/index.html** cuando se ejecute esta página ta a redireccionar a **/pwm-JetSetGo/src/pages/home.html**.
+- **/pwm-JetSetGo/src/pages/home.html** implementa el mockup Home-Hoteles.
+- **/pwm-JetSetGo/src/pages/homeFlights.html** implementa el mockup Home-Vuelos.
+- **/pwm-JetSetGo/src/pages/homeCars.html** implementa el mockup Home-Coches.
+- **/pwm-JetSetGo/src/pages/hotelSearch.html** implementa el mockup Compra-Hoteles.
+- **/pwm-JetSetGo/src/pages/flightSearch.html** implementa el mockup Compra-Vuelos.
+- **/pwm-JetSetGo/src/pages/carSearch.html** implementa el mockup Compra-Coches.
+- **/pwm-JetSetGo/src/pages/logIn.html** implementa el mockup Inicio sesion/Registro.
+- **/pwm-JetSetGo/src/pages/frequentsQuestions.html** implementa el mockup Preguntas Frecuentes.
+- **/pwm-JetSetGo/src/pages/customerService.html** implementa el mockup Soporte.
+- **/pwm-JetSetGo/src/pages/footerSection.html** implementa el mockup Acerca de.
 
 ## Otros aspectos del proyecto que tener en consideración en la evaluación
 
