@@ -42,14 +42,14 @@ HACERLO
 
 ## Listado de archivos templates identificados y señalar archivo en el que se cargan
 
-**/pwm-JetSetGo/src/templates/header.html y /pwm-JetSetGo/src/templates/footer.html** se utilizan en todas las páginas programadas.
-**/pwm-JetSetGo/src/templates/filters.html** se utiliza en /pwm-JetSetGo/src/pages/flightSearch.html, /pwm-JetSetGo/src/pages/carSearch.html, /pwm-JetSetGo/src/pages/hotelSearch.html.
-**/pwm-JetSetGo/src/templates/flights.html** solo se utiliza en /pwm-JetSetGo/src/pages/flightSearch.html
-**/pwm-JetSetGo/src/templates/hotels.html** solo se utiliza en /pwm-JetSetGo/src/pages/hotelSearch.html
-**/pwm-JetSetGo/src/templates/offers.html** se utiliza en /pwm-JetSetGo/src/pages/home.html, /pwm-JetSetGo/src/pages/home-flights.html y /pwm-JetSetGo/src/pages/home-cars.html.
-**/pwm-JetSetGo/src/templates/search-car-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home-cars.html y /pwm-JetSetGo/src/pages/carSearch.html.
-**/pwm-JetSetGo/src/templates/search-fly-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home-flights.html y /pwm-JetSetGo/src/pages/flightSearch.html.
-**/pwm-JetSetGo/src/templates/search-hotel-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home.html y /pwm-JetSetGo/src/pages/hotelSearch.html
+- **/pwm-JetSetGo/src/templates/header.html y /pwm-JetSetGo/src/templates/footer.html** se utilizan en todas las páginas programadas.
+- **/pwm-JetSetGo/src/templates/filters.html** se utiliza en /pwm-JetSetGo/src/pages/flightSearch.html, /pwm-JetSetGo/src/pages/carSearch.html, /pwm-JetSetGo/src/pages/hotelSearch.html.
+- **/pwm-JetSetGo/src/templates/flights.html** solo se utiliza en /pwm-JetSetGo/src/pages/flightSearch.html
+- **/pwm-JetSetGo/src/templates/hotels.html** solo se utiliza en /pwm-JetSetGo/src/pages/hotelSearch.html
+- **/pwm-JetSetGo/src/templates/offers.html** se utiliza en /pwm-JetSetGo/src/pages/home.html, /pwm-JetSetGo/src/pages/home-flights.html y /pwm-JetSetGo/src/pages/home-cars.html.
+- **/pwm-JetSetGo/src/templates/search-car-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home-cars.html y /pwm-JetSetGo/src/pages/carSearch.html.
+- **/pwm-JetSetGo/src/templates/search-fly-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home-flights.html y /pwm-JetSetGo/src/pages/flightSearch.html.
+- **/pwm-JetSetGo/src/templates/search-hotel-bar.html** se utiliza tanto en /pwm-JetSetGo/src/pages/home.html y /pwm-JetSetGo/src/pages/hotelSearch.html
 
 ## Listado de páginas html del proyecto
 /pwm-JetSetGo/src/pages/home.html
