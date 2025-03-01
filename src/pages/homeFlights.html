@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Vuelos</title>
+
+    <script src="../xlu-include-file.js"></script>
+
+    <link rel="stylesheet" href="../assests/css/home.css">
+  </head>
+
+  <body>
+    <header xlu-include-file="../templates/header.html"></header>
+
+    <div class="UpperBackground">
+      <img src="../assests/Images/FondoHome.jpg" alt="FondoHome">
+    </div>
+
+    <div xlu-include-file="../templates/search-fly-bar.html"></div>
+
+    <div class="Offer-section">
+      <h2 id="HeaderOferta"><b>OFERTAS</b></h2>
+      <div>
+        <ul class="Offers" id="OffersList"></ul>
+      </div>
+    </div>
+
+    <footer xlu-include-file="../templates/footer.html"></footer>
+
+    <script>
+      xLuIncludeFile();
+    </script>
+
+    <script src="../assests/js/LoadOffers.js">
+    </script>
+
+
+  </body>
+
+</html>
