@@ -52,7 +52,7 @@ input, textarea {
 
 
 button {
-    background: #007bff;
+    background: #0000FFFF;
     color: white;
     border: none;
     padding: 12px;
@@ -65,7 +65,7 @@ button {
 
 
 button:hover {
-    background: #0056b3;
+    background: #ff7f50;
 }
 
 
