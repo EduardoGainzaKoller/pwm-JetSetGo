@@ -1,4 +1,4 @@
-.vuelos-container {
+.hotels-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
     font-family: system-ui, arial, sans-serif;
 }
 
-.vuelo-card {
+.hotel-card {
     display: flex;
     align-items: center;
     width: 80%;
@@ -19,7 +19,7 @@
     justify-content: space-between;
 }
 
-.vuelos-info {
+.hotels-info {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -27,7 +27,7 @@
 }
 
 
-.vuelo {
+.hotel {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -36,23 +36,25 @@
 }
 
 
-.vuelo-icono {
-    width: 40px;
-    height: 40px;
+.hotel-icono {
+    width: 200px;
+    height: 200px;
 }
 
 
-.vuelo-detalles {
+.hotel-detalles {
     display: flex;
     flex-direction: column;
     gap: 5px;
     flex: 2;
+    margin-bottom: 14%;
 }
 
 
-.vuelo-tipo, .vuelo-duracion {
+.valoracion-hotel, .valoracion-hotel {
     text-align: center;
     flex: 1;
+    margin-bottom: 20%;
 }
 
 
@@ -61,21 +63,14 @@
     font-size: 16px;
 }
 
-.vuelo-aeropuerto,
-.vuelo-tipo,
-.vuelo-duracion {
+.descripcion-hotel,
+.valoracion-hotel {
     color: #333;
     font-size: 14px;
 }
 
-.vuelo-separador {
-    width: 2px;
-    height: 100%;
-    background: #aaa;
-    margin: 0 20px;
-}
 
-.vuelo-precio-btn {
+.hotel-precio-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,13 +78,14 @@
     min-width: 150px;
 }
 
-.vuelo-precio {
+.hotel-precio {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 5px;
+    margin-left: 80%;
 }
 
-.vuelo-btn {
+.hotel-btn {
     background: blue;
     border: none;
     padding: 10px 15px;
@@ -100,10 +96,11 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     color: #ffff;
     transition: 0.3s;
-    width: 100%; /* Para que ocupe todo el espacio disponible */
-    text-align: center;
+    width: 13%;
+    text-align: right;
+    margin-left: 80%;
 }
 
-.vuelo-btn:hover {
+.hotel-btn:hover {
     background: #ff7f50;
 }
