@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reservs",
+  "info": {
+    "singularName": "reserv",
+    "pluralName": "reservs",
+    "displayName": "flight",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "origin": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "airline": {
+      "type": "string"
+    },
+    "departure_time": {
+      "type": "datetime"
+    },
+    "arrival_time": {
+      "type": "datetime"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
