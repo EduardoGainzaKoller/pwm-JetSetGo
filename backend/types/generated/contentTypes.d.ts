@@ -401,6 +401,40 @@ export interface ApiCarCar extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiFlightFlight extends Struct.CollectionTypeSchema {
+  collectionName: 'flights';
+  info: {
+    displayName: 'flight';
+    pluralName: 'flights';
+    singularName: 'flight';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    airline: Schema.Attribute.String;
+    arrival_time: Schema.Attribute.DateTime;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    departure_time: Schema.Attribute.DateTime;
+    destination: Schema.Attribute.String;
+    duration: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::flight.flight'
+    > &
+      Schema.Attribute.Private;
+    origin: Schema.Attribute.String;
+    price: Schema.Attribute.Decimal;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiHotelHotel extends Struct.CollectionTypeSchema {
   collectionName: 'hotels';
   info: {
@@ -1010,6 +1044,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::car.car': ApiCarCar;
+      'api::flight.flight': ApiFlightFlight;
       'api::hotel.hotel': ApiHotelHotel;
       'api::location.location': ApiLocationLocation;
       'api::reserv.reserv': ApiReservReserv;
