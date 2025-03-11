@@ -1,0 +1,74 @@
+{
+  "cars": [
+    {
+      "precio por dia": 30.00,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "descripción": "Económico y confiable",
+      "valoración": 4.2
+    },
+    {
+      "precio por dia": 45.00,
+      "marca": "Ford",
+      "modelo": "Focus",
+      "descripción": "Compacto y eficiente",
+      "valoración": 4.0
+    },
+    {
+      "precio por dia": 50.00,
+      "marca": "Volkswagen",
+      "modelo": "Golf",
+      "descripción": "Espacioso y cómodo",
+      "valoración": 4.5
+    },
+    {
+      "precio por dia": 60.00,
+      "marca": "Hyundai",
+      "modelo": "Elantra",
+      "descripción": "Moderno y tecnológico",
+      "valoración": 4.3
+    },
+    {
+      "precio por dia": 35.00,
+      "marca": "Renault",
+      "modelo": "Clio",
+      "descripción": "Fácil de manejar en ciudad",
+      "valoración": 3.9
+    },
+    {
+      "precio por dia": 55.00,
+      "marca": "Nissan",
+      "modelo": "Sentra",
+      "descripción": "Confortable y seguro",
+      "valoración": 4.1
+    },
+    {
+      "precio por dia": 40.00,
+      "marca": "Peugeot",
+      "modelo": "308",
+      "descripción": "Diseño moderno",
+      "valoración": 4.0
+    },
+    {
+      "precio por dia": 65.00,
+      "marca": "Audi",
+      "modelo": "A3",
+      "descripción": "Lujo y rendimiento",
+      "valoración": 4.7
+    },
+    {
+      "precio por dia": 70.00,
+      "marca": "BMW",
+      "modelo": "Serie 3",
+      "descripción": "Potente y elegante",
+      "valoración": 4.8
+    },
+    {
+      "precio por dia": 50.00,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "descripción": "Eficiente y duradero",
+      "valoración": 4.4
+    }
+  ]
+}

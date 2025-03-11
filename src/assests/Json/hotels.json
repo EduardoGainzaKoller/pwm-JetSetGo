@@ -1,0 +1,114 @@
+{
+  "hotels": [
+    {
+      "nombre del hotel": "Hotel Ritz Madrid",
+      "precio": 250.00,
+      "valoracion": 4.8,
+      "estrellas del hotel": 5,
+      "localizacion": {
+        "ciudad": "Madrid",
+        "pais": "España",
+        "calle": "Calle de Alcalá, 123"
+      }
+    },
+    {
+      "nombre del hotel": "Hotel Arts Barcelona",
+      "precio": 300.00,
+      "valoracion": 4.7,
+      "estrellas del hotel": 5,
+      "localizacion": {
+        "ciudad": "Barcelona",
+        "pais": "España",
+        "calle": "Marina, 19-21"
+      }
+    },
+    {
+      "nombre del hotel": "Hotel Alfonso XIII",
+      "precio": 280.00,
+      "valoracion": 4.9,
+      "estrellas del hotel": 5,
+      "localizacion": {
+        "ciudad": "Sevilla",
+        "pais": "España",
+        "calle": "Calle San Fernando, 12"
+      }
+    },
+    {
+      "nombre del hotel": "Vincci Selección Gajo",
+      "precio": 200.00,
+      "valoracion": 4.5,
+      "estrellas del hotel": 4,
+      "localizacion": {
+        "ciudad": "Madrid",
+        "pais": "España",
+        "calle": "Paseo de la Castellana, 45"
+      }
+    },
+    {
+      "nombre del hotel": "Hotel Maria Cristina",
+      "precio": 320.00,
+      "valoracion": 4.8,
+      "estrellas del hotel": 5,
+      "localizacion": {
+        "ciudad": "San Sebastián",
+        "pais": "España",
+        "calle": "Calle del Mar, 2"
+      }
+    },
+    {
+      "nombre del hotel": "W Barcelona",
+      "precio": 350.00,
+      "valoracion": 4.6,
+      "estrellas del hotel": 5,
+      "localizacion": {
+        "ciudad": "Barcelona",
+        "pais": "España",
+        "calle": "Paseo Marítimo, 30"
+      }
+    },
+    {
+      "nombre del hotel": "Meliá Madrid",
+      "precio": 180.00,
+      "valoracion": 4.3,
+      "estrellas del hotel": 4,
+      "localizacion": {
+        "ciudad": "Madrid",
+        "pais": "España",
+        "calle": "Calle de Atocha, 20"
+      }
+    },
+    {
+      "nombre del hotel": "NH Collection Eurobuilding",
+      "precio": 210.00,
+      "valoracion": 4.4,
+      "estrellas del hotel": 4,
+      "localizacion": {
+        "ciudad": "Madrid",
+        "pais": "España",
+        "calle": "Calle de Serrano, 50"
+      }
+    },
+    {
+      "nombre del hotel": "Gran Meliá Palacio de los Duques",
+      "precio": 260.00,
+      "valoracion": 4.7,
+      "estrellas del hotel": 5,
+      "localizacion": {
+        "ciudad": "Madrid",
+        "pais": "España",
+        "calle": "Calle de la Princesa, 8"
+      }
+    },
+    {
+      "nombre del hotel": "Barceló Torre de Madrid",
+      "precio": 190.00,
+      "valoracion": 4.2,
+      "estrellas del hotel": 4,
+      "localizacion": {
+        "ciudad": "Madrid",
+        "pais": "España",
+        "calle": "Calle del Arenal, 10"
+      }
+    }
+  ]
+}
