@@ -1,0 +1,157 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header fijo en la parte superior con fondo coral */
+.main-header {
+    width: 100%;
+    height: 50px; /* altura reducida para dispositivos móviles */
+    background-color: #FF7F50;
+    position: fixed; /* fijo en la parte superior */
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 16px; /* padding ligeramente reducido */
+    font-family: Arial, sans-serif !important;
+    z-index: 1000;
+}
+
+.option span {
+    font-family: Arial, sans-serif !important;
+}
+
+.logo {
+    font-size: 18px; /* tamaño ajustado */
+    font-weight: bold;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+/* Contenedor de opciones (por debajo del header) */
+.options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* permite que los elementos se ajusten si el ancho es limitado */
+    padding: 8px 16px; /* padding reducido para móvil */
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    transform: translateY(2px);
+    margin-top: 50px; /* para evitar quedar oculto bajo el header fijo */
+}
+
+.options-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espacio entre elementos reducido */
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 6px; /* espacio entre ícono y texto reducido */
+}
+
+.option img {
+    width: 20px; /* dimensiones reducidas para íconos */
+    height: 20px;
+}
+
+.option span {
+    font-size: 12px; /* fuente más pequeña */
+    color: #333;
+}
+
+.right-options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.currency-selector {
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+}
+
+.icon-circle {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon-circle img {
+    width: 16px;
+    height: 16px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100px; /* ancho ajustado para pantallas pequeñas */
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.dropdown-menu a:hover {
+    background: #f1f1f1;
+}
+
+.btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-btn {
+    background: #0000FFFF;
+    color: white;
+}
+
+.login-btn:hover {
+    background: #ff7f50;
+}
+
+.register-btn {
+    background: #0000FFFF;
+    color: white;
+}
+
+.register-btn:hover {
+    background: #ff7f50;
+}
