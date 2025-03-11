@@ -1,8 +1,39 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
+# Node modules
+/node_modules/
+
+# Strapi build folders
+/.cache/
+/build/
+
+# Environment variable file
+/.env
+
+# SQLite database (if used)
+/data.db
+
+# Logs
+logs/
+/pids/
+/tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Strapi-specific ignored files
+/.strapi/
+
+# Data sources (custom or generated data source files)
 /dataSources/
 /dataSources.local.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Miscellaneous
+/shelf/
+/workspace.xml
