@@ -55,3 +55,62 @@
     border: none;
     box-shadow: none;
 }
+
+
+@media (max-width: 400px) {
+    .search-bar {
+        background: #fff;
+        padding:10px;
+        border-radius: 8px;
+        padding-top: 0px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 200px;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .search-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .search-section input,
+    .search-section select {
+        width: 100%;
+        padding: 6px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .search-btn {
+        background: #ff7008;
+        border-radius: 8px;
+        width: 80%;
+        cursor: pointer;
+        padding: 8px;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-btn span {
+        font-size: 20px;
+    }
+}
