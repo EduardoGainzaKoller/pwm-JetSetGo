@@ -1,0 +1,758 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "departure_time": "2025-03-15T08:00:00",
+      "arrival_time": "2025-03-15T12:00:00",
+      "origin": "John F. Kennedy International Airport, United States",
+      "destination": "Los Angeles International Airport, United States",
+      "duration": "6 hours",
+      "price": 350,
+      "airline": "Delta Air Lines"
+    },
+    {
+      "id": 2,
+      "departure_time": "2025-03-16T09:30:00",
+      "arrival_time": "2025-03-16T13:45:00",
+      "origin": "Los Angeles International Airport, United States",
+      "destination": "O'Hare International Airport, United States",
+      "duration": "4 hours 15 minutes",
+      "price": 280,
+      "airline": "United Airlines"
+    },
+    {
+      "id": 3,
+      "departure_time": "2025-03-16T06:15:00",
+      "arrival_time": "2025-03-16T10:00:00",
+      "origin": "Hartsfield-Jackson Atlanta International Airport, United States",
+      "destination": "Dallas/Fort Worth International Airport, United States",
+      "duration": "3 hours 45 minutes",
+      "price": 220,
+      "airline": "American Airlines"
+    },
+    {
+      "id": 4,
+      "departure_time": "2025-03-16T12:45:00",
+      "arrival_time": "2025-03-16T17:30:00",
+      "origin": "Miami International Airport, United States",
+      "destination": "Seattle-Tacoma International Airport, United States",
+      "duration": "5 hours 45 minutes",
+      "price": 400,
+      "airline": "Alaska Airlines"
+    },
+    {
+      "id": 5,
+      "departure_time": "2025-03-17T09:00:00",
+      "arrival_time": "2025-03-17T13:20:00",
+      "origin": "O'Hare International Airport, United States",
+      "destination": "Logan International Airport, United States",
+      "duration": "2 hours 20 minutes",
+      "price": 180,
+      "airline": "JetBlue Airways"
+    },
+    {
+      "id": 6,
+      "departure_time": "2025-03-17T15:30:00",
+      "arrival_time": "2025-03-17T21:10:00",
+      "origin": "Heathrow Airport, United Kingdom",
+      "destination": "John F. Kennedy International Airport, United States",
+      "duration": "7 hours 40 minutes",
+      "price": 600,
+      "airline": "British Airways"
+    },
+    {
+      "id": 7,
+      "departure_time": "2025-03-18T11:00:00",
+      "arrival_time": "2025-03-18T14:30:00",
+      "origin": "San Francisco International Airport, United States",
+      "destination": "Harry Reid International Airport, United States",
+      "duration": "1 hour 30 minutes",
+      "price": 150,
+      "airline": "Southwest Airlines"
+    },
+    {
+      "id": 8,
+      "departure_time": "2025-03-18T19:20:00",
+      "arrival_time": "2025-03-19T05:45:00",
+      "origin": "John F. Kennedy International Airport, United States",
+      "destination": "Dubai International Airport, United Arab Emirates",
+      "duration": "12 hours 25 minutes",
+      "price": 950,
+      "airline": "Emirates"
+    },
+    {
+      "id": 9,
+      "departure_time": "2025-03-19T07:10:00",
+      "arrival_time": "2025-03-19T10:50:00",
+      "origin": "Charles de Gaulle Airport, France",
+      "destination": "Leonardo da Vinci–Fiumicino Airport, Italy",
+      "duration": "1 hour 40 minutes",
+      "price": 130,
+      "airline": "Air France"
+    },
+    {
+      "id": 10,
+      "departure_time": "2025-03-19T14:25:00",
+      "arrival_time": "2025-03-19T18:30:00",
+      "origin": "Ministro Pistarini International Airport, Argentina",
+      "destination": "Arturo Merino Benítez International Airport, Chile",
+      "duration": "2 hours 5 minutes",
+      "price": 200,
+      "airline": "LATAM Airlines"
+    },
+    {
+      "id": 11,
+      "departure_time": "2025-03-22T07:30:00",
+      "arrival_time": "2025-03-22T11:00:00",
+      "origin": "Tokyo Narita Airport, Japan",
+      "destination": "Los Angeles International Airport, United States",
+      "duration": "10 hours 30 minutes",
+      "price": 850,
+      "airline": "Japan Airlines"
+    },
+    {
+      "id": 12,
+      "departure_time": "2025-03-22T15:00:00",
+      "arrival_time": "2025-03-22T18:30:00",
+      "origin": "Dubai International Airport, United Arab Emirates",
+      "destination": "Lagos Murtala Muhammed International Airport, Nigeria",
+      "duration": "8 hours 30 minutes",
+      "price": 700,
+      "airline": "Emirates"
+    },
+    {
+      "id": 13,
+      "departure_time": "2025-03-23T04:30:00",
+      "arrival_time": "2025-03-23T08:45:00",
+      "origin": "Cape Town International Airport, South Africa",
+      "destination": "London Heathrow Airport, United Kingdom",
+      "duration": "11 hours 15 minutes",
+      "price": 950,
+      "airline": "British Airways"
+    },
+    {
+      "id": 14,
+      "departure_time": "2025-03-23T09:00:00",
+      "arrival_time": "2025-03-23T12:30:00",
+      "origin": "Buenos Aires Ministro Pistarini Airport, Argentina",
+      "destination": "Santiago Arturo Merino Benítez Airport, Chile",
+      "duration": "2 hours 30 minutes",
+      "price": 160,
+      "airline": "Aerolineas Argentinas"
+    },
+    {
+      "id": 15,
+      "departure_time": "2025-03-24T18:00:00",
+      "arrival_time": "2025-03-24T22:00:00",
+      "origin": "Toronto Pearson International Airport, Canada",
+      "destination": "Mexico City International Airport, Mexico",
+      "duration": "5 hours",
+      "price": 240,
+      "airline": "Air Canada"
+    },
+    {
+      "id": 16,
+      "departure_time": "2025-03-25T02:30:00",
+      "arrival_time": "2025-03-25T06:15:00",
+      "origin": "Madrid Barajas Airport, Spain",
+      "destination": "New York John F. Kennedy Airport, United States",
+      "duration": "8 hours 45 minutes",
+      "price": 650,
+      "airline": "Iberia Airlines"
+    },
+    {
+      "id": 17,
+      "departure_time": "2025-03-25T20:00:00",
+      "arrival_time": "2025-03-26T10:00:00",
+      "origin": "Singapore Changi Airport, Singapore",
+      "destination": "Sydney Kingsford Smith Airport, Australia",
+      "duration": "7 hours 30 minutes",
+      "price": 900,
+      "airline": "Singapore Airlines"
+    },
+    {
+      "id": 18,
+      "departure_time": "2025-03-26T12:15:00",
+      "arrival_time": "2025-03-26T16:00:00",
+      "origin": "Kuala Lumpur International Airport, Malaysia",
+      "destination": "Bangkok Suvarnabhumi Airport, Thailand",
+      "duration": "2 hours 45 minutes",
+      "price": 150,
+      "airline": "Malaysia Airlines"
+    },
+    {
+      "id": 19,
+      "departure_time": "2025-03-27T05:00:00",
+      "arrival_time": "2025-03-27T08:00:00",
+      "origin": "Los Angeles International Airport, United States",
+      "destination": "Vancouver International Airport, Canada",
+      "duration": "3 hours",
+      "price": 180,
+      "airline": "Air Canada"
+    },
+    {
+      "id": 20,
+      "departure_time": "2025-03-27T16:30:00",
+      "arrival_time": "2025-03-27T21:00:00",
+      "origin": "Paris Charles de Gaulle Airport, France",
+      "destination": "Rome Fiumicino Airport, Italy",
+      "duration": "2 hours 30 minutes",
+      "price": 120,
+      "airline": "Air France"
+    },
+    {
+      "id": 21,
+      "departure_time": "2025-03-28T06:00:00",
+      "arrival_time": "2025-03-28T10:30:00",
+      "origin": "Dubai International Airport, United Arab Emirates",
+      "destination": "Doha Hamad International Airport, Qatar",
+      "duration": "1 hour 30 minutes",
+      "price": 180,
+      "airline": "Qatar Airways"
+    },
+    {
+      "id": 22,
+      "departure_time": "2025-03-28T09:30:00",
+      "arrival_time": "2025-03-28T13:30:00",
+      "origin": "Los Angeles International Airport, United States",
+      "destination": "Chicago O'Hare International Airport, United States",
+      "duration": "4 hours",
+      "price": 220,
+      "airline": "American Airlines"
+    },
+    {
+      "id": 23,
+      "departure_time": "2025-03-29T08:15:00",
+      "arrival_time": "2025-03-29T12:30:00",
+      "origin": "Singapore Changi Airport, Singapore",
+      "destination": "Hong Kong International Airport, China",
+      "duration": "4 hours 15 minutes",
+      "price": 300,
+      "airline": "Cathay Pacific"
+    },
+    {
+      "id": 24,
+      "departure_time": "2025-03-29T12:00:00",
+      "arrival_time": "2025-03-29T18:00:00",
+      "origin": "Paris Charles de Gaulle Airport, France",
+      "destination": "New York John F. Kennedy Airport, United States",
+      "duration": "8 hours",
+      "price": 650,
+      "airline": "Air France"
+    },
+    {
+      "id": 25,
+      "departure_time": "2025-03-30T05:00:00",
+      "arrival_time": "2025-03-30T10:30:00",
+      "origin": "Sydney Kingsford Smith Airport, Australia",
+      "destination": "Auckland International Airport, New Zealand",
+      "duration": "3 hours 30 minutes",
+      "price": 210,
+      "airline": "Qantas Airways"
+    },
+    {
+      "id": 26,
+      "departure_time": "2025-03-30T13:30:00",
+      "arrival_time": "2025-03-30T17:45:00",
+      "origin": "Rome Fiumicino Airport, Italy",
+      "destination": "Barcelona El Prat Airport, Spain",
+      "duration": "2 hours 15 minutes",
+      "price": 130,
+      "airline": "Vueling Airlines"
+    },
+    {
+      "id": 27,
+      "departure_time": "2025-03-31T07:00:00",
+      "arrival_time": "2025-03-31T10:30:00",
+      "origin": "London Heathrow Airport, United Kingdom",
+      "destination": "Berlin Brandenburg Airport, Germany",
+      "duration": "2 hours 30 minutes",
+      "price": 150,
+      "airline": "British Airways"
+    },
+    {
+      "id": 28,
+      "departure_time": "2025-03-31T15:00:00",
+      "arrival_time": "2025-03-31T19:15:00",
+      "origin": "Moscow Sheremetyevo International Airport, Russia",
+      "destination": "Dubai International Airport, United Arab Emirates",
+      "duration": "5 hours 15 minutes",
+      "price": 430,
+      "airline": "Aeroflot"
+    },
+    {
+      "id": 29,
+      "departure_time": "2025-04-01T10:00:00",
+      "arrival_time": "2025-04-01T13:30:00",
+      "origin": "Toronto Pearson International Airport, Canada",
+      "destination": "Boston Logan International Airport, United States",
+      "duration": "3 hours 30 minutes",
+      "price": 180,
+      "airline": "Air Canada"
+    },
+    {
+      "id": 30,
+      "departure_time": "2025-04-01T19:00:00",
+      "arrival_time": "2025-04-01T23:00:00",
+      "origin": "Buenos Aires Ministro Pistarini Airport, Argentina",
+      "destination": "Santiago Arturo Merino Benítez Airport, Chile",
+      "duration": "2 hours",
+      "price": 150,
+      "airline": "LATAM Airlines"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "accommodation": "The Ritz-Carlton",
+      "description": "Un lujoso hotel 5 estrellas en el centro de la ciudad, ideal para una experiencia exclusiva.",
+      "rating": 4.9,
+      "price": 800
+    },
+    {
+      "id": 2,
+      "accommodation": "Hilton Garden Inn",
+      "description": "Hotel moderno con amplias habitaciones y excelentes instalaciones para negocios.",
+      "rating": 4.5,
+      "price": 150
+    },
+    {
+      "id": 3,
+      "accommodation": "Holiday Inn Express",
+      "description": "Alojamiento cómodo y conveniente, ideal para estancias cortas y viajes de negocios.",
+      "rating": 4.2,
+      "price": 100
+    },
+    {
+      "id": 4,
+      "accommodation": "The Peninsula New York",
+      "description": "Un hotel de lujo que ofrece vistas impresionantes de la ciudad y un servicio impecable.",
+      "rating": 4.8,
+      "price": 950
+    },
+    {
+      "id": 5,
+      "accommodation": "Marriott Marquis",
+      "description": "Hotel elegante en Times Square, con una variedad de opciones gastronómicas y excelentes comodidades.",
+      "rating": 4.7,
+      "price": 450
+    },
+    {
+      "id": 6,
+      "accommodation": "Four Seasons Hotel",
+      "description": "El lujo y la comodidad se encuentran en este hotel 5 estrellas con un servicio excepcional.",
+      "rating": 4.9,
+      "price": 1200
+    },
+    {
+      "id": 7,
+      "accommodation": "Sheraton Grand",
+      "description": "Un elegante hotel con una ubicación conveniente y excelentes instalaciones para eventos y negocios.",
+      "rating": 4.4,
+      "price": 210
+    },
+    {
+      "id": 8,
+      "accommodation": "InterContinental",
+      "description": "Ubicado en una zona exclusiva, este hotel ofrece lujo y confort para los viajeros más exigentes.",
+      "rating": 4.6,
+      "price": 550
+    },
+    {
+      "id": 9,
+      "accommodation": "Best Western Plus",
+      "description": "Hotel con buenas instalaciones y servicio, perfecto para familias y estancias largas.",
+      "rating": 4.3,
+      "price": 120
+    },
+    {
+      "id": 10,
+      "accommodation": "Grand Hyatt",
+      "description": "Un hotel 5 estrellas de lujo que ofrece todo lo necesario para una estancia memorable.",
+      "rating": 4.8,
+      "price": 700
+    },
+    {
+      "id": 11,
+      "accommodation": "The Langham",
+      "description": "Un elegante hotel de lujo con un servicio excepcional y una ubicación céntrica.",
+      "rating": 4.9,
+      "price": 850
+    },
+    {
+      "id": 12,
+      "accommodation": "The Waldorf Astoria",
+      "description": "Un hotel histórico conocido por su lujo, excelente servicio y arquitectura imponente.",
+      "rating": 4.8,
+      "price": 1100
+    },
+    {
+      "id": 13,
+      "accommodation": "Park Hyatt",
+      "description": "Ofrece una experiencia de lujo con un diseño moderno y una atención de primer nivel.",
+      "rating": 4.7,
+      "price": 950
+    },
+    {
+      "id": 14,
+      "accommodation": "Radisson Blu",
+      "description": "Un hotel de alto nivel con elegantes habitaciones y excelentes instalaciones para conferencias.",
+      "rating": 4.6,
+      "price": 220
+    },
+    {
+      "id": 15,
+      "accommodation": "Ritz-Carlton Tokyo",
+      "description": "Un lujoso hotel que ofrece vistas panorámicas y un servicio de calidad inigualable.",
+      "rating": 4.8,
+      "price": 1200
+    },
+    {
+      "id": 16,
+      "accommodation": "Mandarin Oriental",
+      "description": "Un hotel elegante con una experiencia de bienestar única y un servicio impecable.",
+      "rating": 4.9,
+      "price": 1000
+    },
+    {
+      "id": 17,
+      "accommodation": "Hyatt Centric",
+      "description": "Un hotel moderno con estilo, situado en el corazón de la ciudad, ideal para viajeros urbanos.",
+      "rating": 4.5,
+      "price": 250
+    },
+    {
+      "id": 18,
+      "accommodation": "JW Marriott",
+      "description": "Lujo, comodidad y un excelente servicio, con amplias instalaciones para negocios y eventos.",
+      "rating": 4.7,
+      "price": 650
+    },
+    {
+      "id": 19,
+      "accommodation": "Novotel",
+      "description": "Alojamiento cómodo y moderno para familias y viajeros de negocios, con un precio accesible.",
+      "rating": 4.3,
+      "price": 150
+    },
+    {
+      "id": 20,
+      "accommodation": "The St. Regis",
+      "description": "Un símbolo de lujo y elegancia, con habitaciones de diseño exquisito y un servicio personalizado.",
+      "rating": 4.9,
+      "price": 1300
+    },
+    {
+      "id": 21,
+      "accommodation": "Budget Inn",
+      "description": "Un hotel económico ideal para estancias cortas, con lo básico para descansar.",
+      "rating": 1.8,
+      "price": 45
+    },
+    {
+      "id": 22,
+      "accommodation": "Motel 6",
+      "description": "Alojamiento simple y asequible, ideal para viajeros que buscan solo lo esencial.",
+      "rating": 2.3,
+      "price": 60
+    },
+    {
+      "id": 23,
+      "accommodation": "Red Roof Inn",
+      "description": "Un hotel económico con habitaciones funcionales y servicio básico para estancias cortas.",
+      "rating": 2.8,
+      "price": 70
+    },
+    {
+      "id": 24,
+      "accommodation": "Super 8",
+      "description": "Ofrece comodidad básica a precios accesibles, con una ubicación conveniente para viajeros en ruta.",
+      "rating": 3.2,
+      "price": 80
+    },
+    {
+      "id": 25,
+      "accommodation": "Econo Lodge",
+      "description": "Un alojamiento asequible con servicios limitados, ideal para estancias rápidas.",
+      "rating": 2.5,
+      "price": 55
+    },
+    {
+      "id": 26,
+      "accommodation": "Travelodge",
+      "description": "Un hotel económico que ofrece habitaciones simples y limpias para aquellos que buscan ahorrar.",
+      "rating": 3.0,
+      "price": 75
+    },
+    {
+      "id": 27,
+      "accommodation": "Days Inn",
+      "description": "Un hotel de bajo coste con instalaciones básicas y un servicio sencillo, pero cómodo.",
+      "rating": 3.1,
+      "price": 85
+    },
+    {
+      "id": 28,
+      "accommodation": "Quality Inn",
+      "description": "Alojamiento sencillo con una relación calidad-precio adecuada para quienes viajan con presupuesto limitado.",
+      "rating": 3.3,
+      "price": 90
+    },
+    {
+      "id": 29,
+      "accommodation": "Comfort Inn",
+      "description": "Alojamiento cómodo y económico con una ubicación conveniente y opciones de desayuno gratuito.",
+      "rating": 3.5,
+      "price": 95
+    },
+    {
+      "id": 30,
+      "accommodation": "La Quinta Inn",
+      "description": "Hotel económico que ofrece habitaciones básicas, desayuno gratuito y acceso conveniente a la ciudad.",
+      "rating": 3.4,
+      "price": 100
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "model": "Focus",
+      "brand": "Ford",
+      "description": "Un coche compacto ideal para la ciudad. Utiliza gasolina de 95 octanos y es económico en consumo.",
+      "rating": 4.2,
+      "price_per_day": 40
+    },
+    {
+      "id": 2,
+      "model": "Civic",
+      "brand": "Honda",
+      "description": "Coche sedán de tamaño mediano, con buen rendimiento. Usa gasolina de 95 octanos y es muy confiable.",
+      "rating": 4.5,
+      "price_per_day": 45
+    },
+    {
+      "id": 3,
+      "model": "Corolla",
+      "brand": "Toyota",
+      "description": "Ideal para viajes largos, con excelente eficiencia de combustible. Requiere gasolina de 95 octanos.",
+      "rating": 4.7,
+      "price_per_day": 50
+    },
+    {
+      "id": 4,
+      "model": "Kuga",
+      "brand": "Ford",
+      "description": "SUV espacioso y cómodo, perfecto para familias. Usa gasolina de 95 octanos.",
+      "rating": 4.3,
+      "price_per_day": 70
+    },
+    {
+      "id": 5,
+      "model": "X5",
+      "brand": "BMW",
+      "description": "SUV de lujo con gran potencia. Requiere gasolina de 98 octanos para un mejor rendimiento.",
+      "rating": 4.8,
+      "price_per_day": 150
+    },
+    {
+      "id": 6,
+      "model": "Model 3",
+      "brand": "Tesla",
+      "description": "Coche eléctrico con una autonomía impresionante. No requiere gasolina, solo recargarse.",
+      "rating": 4.9,
+      "price_per_day": 120
+    },
+    {
+      "id": 7,
+      "model": "Fiesta",
+      "brand": "Ford",
+      "description": "Coche pequeño, perfecto para la ciudad. Utiliza gasolina de 95 octanos y es muy económico en cuanto a consumo.",
+      "rating": 4.1,
+      "price_per_day": 35
+    },
+    {
+      "id": 8,
+      "model": "A4",
+      "brand": "Audi",
+      "description": "Sedán de lujo con un rendimiento excepcional. Usa gasolina de 95 octanos y tiene un interior elegante.",
+      "rating": 4.6,
+      "price_per_day": 110
+    },
+    {
+      "id": 9,
+      "model": "Sierra",
+      "brand": "Chevrolet",
+      "description": "Pick-up resistente y con gran capacidad de carga. Utiliza gasolina de 95 octanos.",
+      "rating": 4.4,
+      "price_per_day": 80
+    },
+    {
+      "id": 10,
+      "model": "Mazda 3",
+      "brand": "Mazda",
+      "description": "Coche compacto y ágil, ideal para el día a día. Requiere gasolina de 95 octanos.",
+      "rating": 4.3,
+      "price_per_day": 45
+    },
+    {
+      "id": 11,
+      "model": "Tucson",
+      "brand": "Hyundai",
+      "description": "SUV compacto ideal para familias pequeñas. Utiliza gasolina de 95 octanos y es conocido por su fiabilidad y eficiencia de combustible.",
+      "rating": 4.2,
+      "price_per_day": 65
+    },
+    {
+      "id": 12,
+      "model": "E-Class",
+      "brand": "Mercedes-Benz",
+      "description": "Sedán de lujo con una conducción suave y potente. Requiere gasolina premium (98 octanos) para aprovechar al máximo su rendimiento.",
+      "rating": 4.6,
+      "price_per_day": 120
+    },
+    {
+      "id": 13,
+      "model": "Jetta",
+      "brand": "Volkswagen",
+      "description": "Coche compacto y eficiente, ideal para viajes urbanos y largos. Usa gasolina de 95 octanos y tiene un bajo consumo de combustible.",
+      "rating": 4.1,
+      "price_per_day": 50
+    },
+    {
+      "id": 14,
+      "model": "F-150",
+      "brand": "Ford",
+      "description": "Pick-up grande con gran capacidad de carga. Usa gasolina de 95 octanos, perfecta para quienes necesitan potencia y versatilidad.",
+      "rating": 3.9,
+      "price_per_day": 90
+    },
+    {
+      "id": 15,
+      "model": "Civic Hatchback",
+      "brand": "Honda",
+      "description": "Un coche deportivo con gran espacio y eficiencia de combustible. Requiere gasolina de 95 octanos y es ideal para aquellos que buscan rendimiento.",
+      "rating": 4.4,
+      "price_per_day": 60
+    },
+    {
+      "id": 16,
+      "model": "Porsche 911",
+      "brand": "Porsche",
+      "description": "Deportivo de lujo con una conducción emocionante y precisa. Usa gasolina premium de 98 octanos y es perfecto para quienes buscan velocidad y estilo.",
+      "rating": 4.8,
+      "price_per_day": 250
+    },
+    {
+      "id": 17,
+      "model": "Sonata",
+      "brand": "Hyundai",
+      "description": "Sedán mediano con una excelente relación calidad-precio. Usa gasolina de 95 octanos, es espacioso y tiene un buen rendimiento de combustible.",
+      "rating": 4.3,
+      "price_per_day": 55
+    },
+    {
+      "id": 18,
+      "model": "Rav4",
+      "brand": "Toyota",
+      "description": "SUV con buen rendimiento de combustible y una conducción cómoda. Utiliza gasolina de 95 octanos y es perfecto para quienes buscan versatilidad.",
+      "rating": 4.5,
+      "price_per_day": 80
+    },
+    {
+      "id": 19,
+      "model": "Charger",
+      "brand": "Dodge",
+      "description": "Coche deportivo con un motor potente. Utiliza gasolina premium (98 octanos) y es ideal para quienes buscan potencia y un diseño agresivo.",
+      "rating": 4.0,
+      "price_per_day": 100
+    },
+    {
+      "id": 20,
+      "model": "Mazda CX-5",
+      "brand": "Mazda",
+      "description": "SUV de tamaño mediano con gran rendimiento de combustible. Requiere gasolina de 95 octanos y es conocido por su agilidad y comodidad.",
+      "rating": 4.2,
+      "price_per_day": 70
+    },
+    {
+      "id": 21,
+      "model": "Spark",
+      "brand": "Chevrolet",
+      "description": "Coche compacto y económico, ideal para la ciudad. Usa gasolina de 95 octanos y es adecuado para trayectos cortos.",
+      "rating": 2.5,
+      "price_per_day": 40
+    },
+    {
+      "id": 22,
+      "model": "Aveo",
+      "brand": "Chevrolet",
+      "description": "Vehículo pequeño con un rendimiento de combustible moderado. Requiere gasolina de 95 octanos y es adecuado para personas que buscan un precio bajo.",
+      "rating": 2.8,
+      "price_per_day": 45
+    },
+    {
+      "id": 23,
+      "model": "Rio",
+      "brand": "Kia",
+      "description": "Un coche pequeño y económico con poco espacio interior. Usa gasolina de 95 octanos y es adecuado para viajes urbanos.",
+      "rating": 2.9,
+      "price_per_day": 50
+    },
+    {
+      "id": 24,
+      "model": "Chery Tiggo 2",
+      "brand": "Chery",
+      "description": "SUV pequeño y de bajo coste con un rendimiento de combustible básico. Requiere gasolina de 95 octanos.",
+      "rating": 2.3,
+      "price_per_day": 55
+    },
+    {
+      "id": 25,
+      "model": "Duster",
+      "brand": "Renault",
+      "description": "SUV económico, con una conducción algo rudimentaria y un interior básico. Usa gasolina de 95 octanos.",
+      "rating": 2.6,
+      "price_per_day": 60
+    },
+    {
+      "id": 26,
+      "model": "Tata Nano",
+      "brand": "Tata",
+      "description": "Uno de los coches más pequeños del mercado, ideal para una conducción en ciudad. Requiere gasolina de 95 octanos.",
+      "rating": 2.0,
+      "price_per_day": 30
+    },
+    {
+      "id": 27,
+      "model": "Logan",
+      "brand": "Dacia",
+      "description": "Un coche económico de bajo coste con un interior sencillo. Utiliza gasolina de 95 octanos y es adecuado para viajes cortos.",
+      "rating": 2.4,
+      "price_per_day": 50
+    },
+    {
+      "id": 28,
+      "model": "Picanto",
+      "brand": "Kia",
+      "description": "Coche muy pequeño con poco espacio y rendimiento moderado. Usa gasolina de 95 octanos.",
+      "rating": 2.7,
+      "price_per_day": 45
+    },
+    {
+      "id": 29,
+      "model": "Mii",
+      "brand": "Seat",
+      "description": "Pequeño coche urbano con una conducción sencilla, adecuado para viajes cortos. Requiere gasolina de 95 octanos.",
+      "rating": 2.2,
+      "price_per_day": 40
+    },
+    {
+      "id": 30,
+      "model": "Celerio",
+      "brand": "Suzuki",
+      "description": "Coche compacto con una calidad de conducción baja y consumo de combustible moderado. Utiliza gasolina de 95 octanos.",
+      "rating": 2.1,
+      "price_per_day": 35
+    }
+  ]
+}
