@@ -1,0 +1,8 @@
+async function loadTemplate(url) {
+    let response = await fetch(url);
+    let text = await response.text();
+
+    let template = document.createElement('template');
+    template.innerHTML = text;
+    return document.importNode(template.content, true);
+}

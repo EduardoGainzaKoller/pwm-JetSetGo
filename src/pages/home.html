@@ -7,19 +7,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home - Hoteles</title>
 
-        <script src="../xlu-include-file.js"></script>
+        <script src="../assests/js/loadTemplate.js"></script>
+        <script src="../assests/js/loadStructure.js"></script>
 
         <link rel="stylesheet" href="../assests/css/home.css">
     </head>
 
     <body>
-        <header xlu-include-file="../templates/header.html"></header>
+
+        <div id="header"></div>
 
         <div class="UpperBackground">
             <img src="../assests/Images/FondoHome.jpg" alt="FondoHome">
         </div>
 
-        <div xlu-include-file="../templates/search-hotel-bar.html"></div>
+        <div id="searchBar"></div>
 
         <div class="Offer-section">
             <h2 id="HeaderOferta"><b>OFERTAS</b></h2>
@@ -28,10 +30,10 @@
             </div>
         </div>
 
-        <footer xlu-include-file="../templates/footer.html"></footer>
+        <div id="footer"></div>
 
         <script>
-            xLuIncludeFile();
+            loadStructure();
         </script>
 
         <script src="../assests/js/LoadOffers.js">

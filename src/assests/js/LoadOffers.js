@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
+
     const offersList = document.getElementById("OffersList");
     const numOfertas = 6;
 
     for (let i = 0; i < numOfertas; i++) {
+        let offerTemplate = await loadTemplate("../templates/offers.html");
         let li = document.createElement("li");
-        li.setAttribute("xlu-include-file", "../templates/offers.html");
+        li.appendChild(offerTemplate);
         offersList.appendChild(li);
     }
-
-    xLuIncludeFile();
 });
