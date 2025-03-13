@@ -7,7 +7,7 @@
       "hora de llegada": "08:30",
       "duracion": "1h 30m",
       "precio": 80.50,
-      "imagen_destino": "https://example.com/images/barcelona.jpg"
+      "imagen_destino": "../Images/barcelona.jgp"
     },
     {
       "origen": "Barcelona",
@@ -16,7 +16,7 @@
       "hora de llegada": "10:00",
       "duracion": "1h 0m",
       "precio": 60.00,
-      "imagen_destino": "https://example.com/images/valencia.jpg"
+      "imagen_destino": "../Images/valencia.jpg"
     },
     {
       "origen": "Sevilla",
@@ -25,7 +25,7 @@
       "hora de llegada": "12:45",
       "duracion": "2h 30m",
       "precio": 120.75,
-      "imagen_destino": "https://example.com/images/bilbao.jpg"
+      "imagen_destino": "../Images/bilbao.jpg"
     },
     {
       "origen": "Valencia",
@@ -34,7 +34,7 @@
       "hora de llegada": "14:15",
       "duracion": "1h 15m",
       "precio": 70.00,
-      "imagen_destino": "https://example.com/images/madrid.jpg"
+      "imagen_destino": "../Images/madrid.jpg"
     },
     {
       "origen": "Bilbao",
@@ -43,7 +43,7 @@
       "hora de llegada": "17:45",
       "duracion": "2h 15m",
       "precio": 110.00,
-      "imagen_destino": "https://example.com/images/sevilla.jpg"
+      "imagen_destino": "../Images/sevilla.jpg"
     },
     {
       "origen": "Málaga",
@@ -52,7 +52,7 @@
       "hora de llegada": "08:00",
       "duracion": "1h 30m",
       "precio": 85.00,
-      "imagen_destino": "https://example.com/images/madrid.jpg"
+      "imagen_destino": "../Images/madrid.jpg"
     },
     {
       "origen": "Granada",
@@ -61,7 +61,7 @@
       "hora de llegada": "13:30",
       "duracion": "1h 30m",
       "precio": 95.00,
-      "imagen_destino": "https://example.com/images/barcelona.jpg"
+      "imagen_destino": "../Images/barcelona.jgp"
     },
     {
       "origen": "Zaragoza",
@@ -70,7 +70,7 @@
       "hora de llegada": "12:15",
       "duracion": "1h 15m",
       "precio": 65.50,
-      "imagen_destino": "https://example.com/images/madrid.jpg"
+      "imagen_destino": "../Images/madrid.jpg"
     },
     {
       "origen": "Bilbao",
@@ -79,7 +79,7 @@
       "hora de llegada": "15:45",
       "duracion": "1h 45m",
       "precio": 75.25,
-      "imagen_destino": "https://example.com/images/valencia.jpg"
+      "imagen_destino": "../Images/valencia.jpg"
     },
     {
       "origen": "Madrid",
@@ -88,7 +88,7 @@
       "hora de llegada": "18:45",
       "duracion": "1h 45m",
       "precio": 90.00,
-      "imagen_destino": "https://example.com/images/sevilla.jpg"
+      "imagen_destino": "../Images/sevilla.jpg"
     }
   ]
 }
