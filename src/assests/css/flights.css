@@ -184,3 +184,98 @@
         padding: 8px 10px;
     }
 }
+@media only screen and (min-width: 391px) and (max-width: 1024px) {
+    .vuelos-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .vuelo-card {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; /* Alinea todos los elementos arriba */
+        width: 90%;
+        max-width: 900px;
+        background: #e0e0e0;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    /* Contenedor para los 2 vuelos */
+    .vuelos-info {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; /* Alinea ambos vuelos por arriba */
+        justify-content: space-evenly;
+        flex: 1;
+        gap: 40px;              /* Espacio horizontal entre vuelos */
+    }
+
+    /* Cada vuelo es una “columna” */
+    .vuelo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alinea las líneas al inicio */
+        gap: 8px;               /* Espacio vertical entre líneas */
+        width: 45%;             /* Cada vuelo ~45% para dejar hueco entre ambos */
+    }
+
+    /* Elimina márgenes en los párrafos y usa una altura de línea consistente */
+    .vuelo p {
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .vuelo-icono {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Oculta o mantén el separador según prefieras */
+    .vuelo-separador {
+        display: none;
+    }
+
+    /* Bloque de precio y botón a la derecha */
+    .vuelo-precio-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 120px; /* Ancho fijo para evitar que “salte” fuera */
+    }
+
+    .vuelo-precio {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 5px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .vuelo-btn {
+        background: blue;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        color: #fff;
+        transition: 0.3s;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .vuelo-btn:hover {
+        background: #ff7f50;
+    }
+}
+

@@ -79,3 +79,53 @@ footer {
     width: 100%;
     margin-top: auto;
 }
+/* Estilos para iPhone 13 (máximo 390px) */
+@media only screen and (max-width: 390px) {
+    .contact-form {
+        padding: 10px;
+    }
+
+    .form-container {
+        width: 90%;         /* Ocupa casi todo el ancho */
+        padding: 20px;      /* Menos padding para optimizar el espacio */
+        border-radius: 10px;
+    }
+
+    /* Ajusta los inputs, textarea y botón para que sean un poco más pequeños */
+    input,
+    textarea {
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Estilos para iPad Pro (de 391px hasta 1024px) */
+@media only screen and (min-width: 391px) and (max-width: 1024px) {
+    .contact-form {
+        padding: 20px;
+    }
+
+    .form-container {
+        width: 50%;         /* Un ancho medio para aprovechar mejor el espacio en iPad */
+        padding: 30px;      /* Espacio interno mayor para un look más aireado */
+        border-radius: 12px;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
