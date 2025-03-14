@@ -104,3 +104,125 @@
 .hotel-btn:hover {
     background: #ff7f50;
 }
+
+@media only screen and (max-width: 390px) {
+    /* Contenedor general */
+    .hotels-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: #fff;
+        font-family: system-ui, arial, sans-serif;
+    }
+
+    /* Tarjeta de hotel: se apila el contenido verticalmente y se reduce su ancho */
+    .hotel-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        max-width: 350px;
+        background: #e0e0e0;
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        gap: 10px;
+        justify-content: center;
+    }
+
+    /* Información interna: se alinea a la izquierda y se reducen los espacios */
+    .hotels-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    /* Elemento individual: apila sus contenidos */
+    .hotel {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    /* Reducimos el tamaño de la imagen */
+    .hotel-icono {
+        width: 170px; /* Aumenta el tamaño de la imagen */
+        height: 170px;
+        display: block;
+        margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+    }
+
+    /* Detalles del hotel: eliminamos márgenes excesivos */
+    .hotel-detalles {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex: 2;
+        margin-bottom: 0;
+    }
+
+    /* Ajuste de la valoración y nombre */
+    .valoracion-hotel {
+        text-align: center;
+        flex: 1;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .nombre-hotel {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /* Reducción del tamaño de fuente en descripción */
+    .descripcion-hotel {
+        color: #333;
+        font-size: 12px;
+    }
+
+    /* Contenedor de precio y botón: se centran y adaptan al 100% del ancho */
+    .hotel-precio-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .hotel-precio {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Botón: se amplía para ocupar todo el ancho, se centra y se reduce un poco la fuente */
+    .hotel-btn {
+        background: blue;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        color: #fff;
+        transition: 0.3s;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .hotel-btn:hover {
+        background: #ff7f50;
+    }
+}
+
