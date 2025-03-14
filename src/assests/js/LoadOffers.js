@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async function () {
 
     const offersList = document.getElementById("OffersList");
-    const numOfertas = 6;
+    const numOfertas = 4;
 
     for (let i = 0; i < numOfertas; i++) {
         let offerTemplate = await loadTemplate("../templates/offers.html");

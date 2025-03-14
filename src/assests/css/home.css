@@ -55,3 +55,36 @@ body {
     object-fit: cover;
 }
 
+@media screen and (max-width: 400px) {
+
+    #HeaderOferta {
+        margin-top: 10px;
+        width: 100%;
+        text-align: left; /* Asegura que el texto esté centrado */
+        margin-bottom: 5px; /* Reduce el espacio debajo del título */
+    }
+
+    .Offer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Offers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .Offers li {
+        width: 200px;
+        min-width: 140px;
+        height: auto;
+    }
+}
+
+
+
+
