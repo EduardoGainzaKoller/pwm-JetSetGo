@@ -8,7 +8,7 @@
         <title>Home - Hoteles</title>
 
         <script src="../assests/js/loadTemplate.js"></script>
-        <script src="../assests/js/loadStructure.js"></script>
+        <script src="../assests/js/loadGeneralStructure.js"></script>
 
         <link rel="stylesheet" href="../assests/css/home.css">
     </head>
@@ -33,7 +33,11 @@
         <div id="footer"></div>
 
         <script>
-            loadStructure();
+            loadGeneralStructure([
+                { id: 'header', templatePath: '../templates/header.html' },
+                { id: 'footer', templatePath: '../templates/footer.html' },
+                { id: 'searchBar', templatePath: '../templates/search-hotel-bar.html' }
+            ]);
         </script>
 
         <script src="../assests/js/LoadOffers.js">

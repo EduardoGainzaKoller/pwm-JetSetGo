@@ -60,8 +60,8 @@ body {
     #HeaderOferta {
         margin-top: 10px;
         width: 100%;
-        text-align: left; /* Asegura que el texto esté centrado */
-        margin-bottom: 5px; /* Reduce el espacio debajo del título */
+        text-align: left;
+        margin-bottom: 5px;
     }
 
     .Offer-section {
