@@ -59,7 +59,7 @@
     font-size: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
     .search-bar {
         background: #fff;
         padding:10px;

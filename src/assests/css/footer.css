@@ -106,3 +106,33 @@ html, body {
         margin: 0;
     }
 }
+@media only screen and (min-width: 391px) and (max-width: 1024px) {
+    .main-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px;
+        gap: 50px;
+    }
+
+    .footer-columns {
+        display: flex;
+        gap: 80px;
+    }
+
+    .footer-column {
+        width: auto;
+        text-align: left;
+    }
+
+    .center-column {
+        margin-left: 0;
+    }
+
+    .footer-logo {
+        font-size: 28px;
+        margin-left: 0;
+        text-align: center;
+    }
+}

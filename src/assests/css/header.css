@@ -224,3 +224,62 @@
         padding: 6px 10px;
     }
 }
+@media only screen and (min-width: 391px) and (max-width: 1024px) {
+    .main-header {
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .options-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        gap: 20px;
+    }
+
+    .options-menu {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .option img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .option span {
+        font-size: 14px;
+    }
+
+    .right-options {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .currency-selector {
+        padding: 5px;
+    }
+
+    .icon-circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon-circle img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
