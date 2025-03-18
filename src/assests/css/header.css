@@ -1,11 +1,10 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Header fijo arriba con fondo gris */
 .main-header {
     width: 100%;
     height: 60px;
@@ -164,4 +163,64 @@
 
 .register-btn:hover {
     background: #ff7f50;
+}
+@media only screen and (max-width: 390px) {
+
+    .options-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .options-menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+
+    .right-options {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .right-options .currency-selector,
+    .right-options .icon-circle {
+        margin-right: auto;
+    }
+
+    .right-options a {
+        margin-left: auto;
+        display: flex;
+        gap: 8px;
+    }
+
+    .option img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .option span {
+        font-size: 13px;
+    }
+
+    .icon-circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon-circle img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .btn {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
 }

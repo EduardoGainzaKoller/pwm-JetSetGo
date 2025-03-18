@@ -107,3 +107,80 @@
 .vuelo-btn:hover {
     background: #ff7f50;
 }
+@media only screen and (max-width: 390px) {
+    .vuelos-container {
+        padding: 10px;
+    }
+
+    .vuelo-card {
+        /* Mantén la tarjeta en columna para que el bloque de precio quede debajo */
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        max-width: 400px;
+        padding: 15px;
+    }
+
+    /* Ocultamos el separador vertical en versión móvil */
+    .vuelo-separador {
+        display: none;
+    }
+
+    /* Contiene 2 vuelos lado a lado */
+    .vuelos-info {
+        display: flex;
+        flex-direction: row;
+        /* Alinea cada vuelo al inicio (arriba) para que coincidan sus líneas */
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Cada vuelo ocupa la mitad (50%) y alinea su contenido al inicio (izquierda) */
+    .vuelo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px; /* Espacio vertical entre elementos */
+    }
+
+    /* Elimina márgenes por defecto de <p> para alinear mejor cada línea */
+    .vuelo p {
+        margin: 0;
+    }
+
+    /* Ícono más pequeño para que quepa bien */
+    .vuelo-icono {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Ajusta tamaños de fuente para no desbordar */
+    .vuelo-horario {
+        font-size: 14px;
+    }
+    .vuelo-aeropuerto,
+    .vuelo-tipo,
+    .vuelo-duracion {
+        font-size: 12px;
+    }
+
+    /* Precio y botón ocupan toda la parte inferior */
+    .vuelo-precio-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .vuelo-precio {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .vuelo-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
