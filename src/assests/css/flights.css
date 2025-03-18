@@ -100,7 +100,7 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     color: #ffff;
     transition: 0.3s;
-    width: 100%; /* Para que ocupe todo el espacio disponible */
+    width: 100%;
     text-align: center;
 }
 
@@ -113,7 +113,6 @@
     }
 
     .vuelo-card {
-        /* Mantén la tarjeta en columna para que el bloque de precio quede debajo */
         flex-direction: column;
         align-items: center;
         width: 90%;
@@ -121,43 +120,36 @@
         padding: 15px;
     }
 
-    /* Ocultamos el separador vertical en versión móvil */
     .vuelo-separador {
         display: none;
     }
 
-    /* Contiene 2 vuelos lado a lado */
     .vuelos-info {
         display: flex;
         flex-direction: row;
-        /* Alinea cada vuelo al inicio (arriba) para que coincidan sus líneas */
         align-items: flex-start;
         gap: 10px;
         width: 100%;
         margin-bottom: 15px;
     }
 
-    /* Cada vuelo ocupa la mitad (50%) y alinea su contenido al inicio (izquierda) */
     .vuelo {
         width: 50%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 6px; /* Espacio vertical entre elementos */
+        gap: 6px;
     }
 
-    /* Elimina márgenes por defecto de <p> para alinear mejor cada línea */
     .vuelo p {
         margin: 0;
     }
 
-    /* Ícono más pequeño para que quepa bien */
     .vuelo-icono {
         width: 30px;
         height: 30px;
     }
 
-    /* Ajusta tamaños de fuente para no desbordar */
     .vuelo-horario {
         font-size: 14px;
     }
@@ -167,7 +159,6 @@
         font-size: 12px;
     }
 
-    /* Precio y botón ocupan toda la parte inferior */
     .vuelo-precio-btn {
         width: 100%;
         text-align: center;
@@ -195,7 +186,7 @@
     .vuelo-card {
         display: flex;
         flex-direction: row;
-        align-items: flex-start; /* Alinea todos los elementos arriba */
+        align-items: flex-start;
         width: 90%;
         max-width: 900px;
         background: #e0e0e0;
@@ -206,26 +197,23 @@
         justify-content: space-between;
     }
 
-    /* Contenedor para los 2 vuelos */
     .vuelos-info {
         display: flex;
         flex-direction: row;
-        align-items: flex-start; /* Alinea ambos vuelos por arriba */
+        align-items: flex-start;
         justify-content: space-evenly;
         flex: 1;
-        gap: 40px;              /* Espacio horizontal entre vuelos */
+        gap: 40px;
     }
 
-    /* Cada vuelo es una “columna” */
     .vuelo {
         display: flex;
         flex-direction: column;
-        align-items: flex-start; /* Alinea las líneas al inicio */
-        gap: 8px;               /* Espacio vertical entre líneas */
-        width: 45%;             /* Cada vuelo ~45% para dejar hueco entre ambos */
+        align-items: flex-start;
+        gap: 8px;
+        width: 45%;
     }
 
-    /* Elimina márgenes en los párrafos y usa una altura de línea consistente */
     .vuelo p {
         margin: 0;
         line-height: 1.4;
@@ -236,18 +224,16 @@
         height: 40px;
     }
 
-    /* Oculta o mantén el separador según prefieras */
     .vuelo-separador {
         display: none;
     }
 
-    /* Bloque de precio y botón a la derecha */
     .vuelo-precio-btn {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex: 0 0 120px; /* Ancho fijo para evitar que “salte” fuera */
+        flex: 0 0 120px;
     }
 
     .vuelo-precio {

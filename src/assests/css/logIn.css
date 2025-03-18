@@ -122,18 +122,16 @@ input {
     flex: 1;
 }
 @media only screen and (max-width: 390px) {
-    /* Contenedor del login: más estrecho y alto dinámico */
     .login-container {
         padding: 10px;
         max-width: 350px;
-        font-size: 1rem;    /* Reduce la fuente base */
-        height: auto;       /* Evita forzar 100vh, permitiendo ver todo sin scroll excesivo */
-        margin: 0 auto;     /* Centra horizontalmente */
+        font-size: 1rem;
+        height: auto;
+        margin: 0 auto;
     }
 
-    /* Ajustes de títulos y párrafos */
     .login-container h2 {
-        font-size: 1.2rem;  /* Ajusta tamaño del subtítulo */
+        font-size: 1.2rem;
         margin-bottom: 10px;
     }
 
@@ -142,34 +140,30 @@ input {
         margin-bottom: 10px;
     }
 
-    /* Formulario al 100% del contenedor */
     form {
         width: 100%;
     }
 
-    /* Inputs más pequeños */
     input {
         font-size: 1rem;
         padding: 10px;
     }
 
-    /* Botón "Enviar correo de verificación" un poco más compacto */
     .login {
         font-size: 1rem;
         padding: 10px;
     }
 
-    /* Sección de alternativas de login: reducimos la separación y el tamaño de los iconos */
     .alternative-login {
         margin-top: 15px;
     }
 
     .social-icons {
-        gap: 40px;  /* Disminuye el espacio entre iconos */
+        gap: 40px;
     }
 
     .social-icons img {
-        width: 35px !important; /* Asegura iconos un poco más pequeños */
+        width: 35px !important;
         height: auto !important;
     }
 }
