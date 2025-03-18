@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JetSetGo - Inicio de Sesión</title>
+    <script src="../xlu-include-file.js"></script>
+    <link rel="stylesheet" href="../assests/css/logIn.css">
+</head>
+
+<body>
+<header xlu-include-file="../templates/header.html"></header>
+
+<main class="login-container main-content">
+    <h2>Registrarse</h2>
+    <p>Crear cuenta de JetSetGo.com para conseguir mejores ofertas</p>
+    <form>
+        <label for="email">E-mail y contraseña</label>
+        <input type="email" id="email" placeholder="Indica tu e-mail" required>
+        <input type="password" id="password" placeholder="Indica tu contraseña" required>
+
+        <button class="login" type="submit">Registrarse</button>
+    </form>
+
+    <div class="alternative-login">
+        <p>— o usar una de estas opciones —</p>
+        <div class="social-icons">
+            <img src="../assests/Images/google.png">
+            <img src="../assests/Images/apple.png">
+        </div>
+    </div>
+</main>
+
+<footer xlu-include-file="../templates/footer.html"></footer>
+
+<script>
+    xLuIncludeFile();
+</script>
+</body>
+
+</html>
