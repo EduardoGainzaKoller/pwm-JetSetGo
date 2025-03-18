@@ -15,7 +15,7 @@
     background: #e0e0e0;
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
 }
 
@@ -93,7 +93,7 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     color: #ffff;
     transition: 0.3s;
     width: 13%;
@@ -117,7 +117,6 @@
         font-family: system-ui, arial, sans-serif;
     }
 
-    /* Tarjeta de hotel: se apila el contenido verticalmente y se reduce su ancho */
     .hotel-card {
         display: flex;
         flex-direction: column;
@@ -127,12 +126,11 @@
         background: #e0e0e0;
         border-radius: 15px;
         padding: 15px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         gap: 10px;
         justify-content: center;
     }
 
-    /* Información interna: se alinea a la izquierda y se reducen los espacios */
     .hotels-info {
         display: flex;
         flex-direction: column;
@@ -141,7 +139,6 @@
         align-items: flex-start;
     }
 
-    /* Elemento individual: apila sus contenidos */
     .hotel {
         display: flex;
         flex-direction: column;
@@ -150,15 +147,13 @@
         width: 100%;
     }
 
-    /* Reducimos el tamaño de la imagen */
     .hotel-icono {
-        width: 170px; /* Aumenta el tamaño de la imagen */
+        width: 170px;
         height: 170px;
         display: block;
-        margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+        margin: 0 auto;
     }
 
-    /* Detalles del hotel: eliminamos márgenes excesivos */
     .hotel-detalles {
         display: flex;
         flex-direction: column;
@@ -167,7 +162,6 @@
         margin-bottom: 0;
     }
 
-    /* Ajuste de la valoración y nombre */
     .valoracion-hotel {
         text-align: center;
         flex: 1;
@@ -180,13 +174,11 @@
         font-size: 14px;
     }
 
-    /* Reducción del tamaño de fuente en descripción */
     .descripcion-hotel {
         color: #333;
         font-size: 12px;
     }
 
-    /* Contenedor de precio y botón: se centran y adaptan al 100% del ancho */
     .hotel-precio-btn {
         display: flex;
         flex-direction: column;
@@ -212,7 +204,7 @@
         font-size: 14px;
         font-weight: bold;
         cursor: pointer;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         color: #fff;
         transition: 0.3s;
         width: 100%;
@@ -220,6 +212,102 @@
         margin: 0;
     }
 
+    .hotel-btn:hover {
+        background: #ff7f50;
+    }
+}
+@media only screen and (min-width: 391px) and (max-width: 1024px) {
+    .hotels-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #ffff;
+        font-family: system-ui, arial, sans-serif;
+    }
+    .hotel-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 90%;
+        max-width: 700px;
+        background: #e0e0e0;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .hotels-info {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-grow: 1;
+        align-items: center;
+    }
+    .hotel {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+    .hotel-icono {
+        width: 200px;
+        height: 200px;
+    }
+    .hotel-detalles {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex: 2;
+        margin-bottom: 0;
+    }
+    .valoracion-hotel {
+        text-align: center;
+        flex: 1;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    .nombre-hotel {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .descripcion-hotel,
+    .valoracion-hotel {
+        color: #333;
+        font-size: 14px;
+    }
+    .hotel-precio-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 150px;
+    }
+    .hotel-precio {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .hotel-btn {
+        background: blue;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        color: #ffff;
+        transition: 0.3s;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
     .hotel-btn:hover {
         background: #ff7f50;
     }
