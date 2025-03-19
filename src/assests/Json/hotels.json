@@ -1,7 +1,7 @@
 {
   "hotels": [
     {
-      "nombre del hotel": "Hotel Ritz Madrid",
+      "nombre_del_hotel": "Hotel Ritz Madrid",
       "precio": 250.00,
       "valoracion": 4.8,
       "estrellas del hotel": 5,
@@ -12,7 +12,7 @@
       }
     },
     {
-      "nombre del hotel": "Hotel Arts Barcelona",
+      "nombre_del_hotel": "Hotel Arts Barcelona",
       "precio": 300.00,
       "valoracion": 4.7,
       "estrellas del hotel": 5,
@@ -23,7 +23,7 @@
       }
     },
     {
-      "nombre del hotel": "Hotel Alfonso XIII",
+      "nombre_del_hotel": "Hotel Alfonso XIII",
       "precio": 280.00,
       "valoracion": 4.9,
       "estrellas del hotel": 5,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "nombre del hotel": "Vincci Selección Gajo",
+      "nombre_del_hotel": "Vincci Selección Gajo",
       "precio": 200.00,
       "valoracion": 4.5,
       "estrellas del hotel": 4,
@@ -45,7 +45,7 @@
       }
     },
     {
-      "nombre del hotel": "Hotel Maria Cristina",
+      "nombre_del_hotel": "Hotel Maria Cristina",
       "precio": 320.00,
       "valoracion": 4.8,
       "estrellas del hotel": 5,
@@ -56,7 +56,7 @@
       }
     },
     {
-      "nombre del hotel": "W Barcelona",
+      "nombre_del_hotel": "W Barcelona",
       "precio": 350.00,
       "valoracion": 4.6,
       "estrellas del hotel": 5,

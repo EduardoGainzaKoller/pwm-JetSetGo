@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Home - Hoteles</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Hoteles</title>
 
-      <script src="../assests/js/loadTemplate.js"></script>
-      <script src="../assests/js/loadGeneralStructure.js"></script>
+    <script src="../assests/js/loadTemplate.js"></script>
+    <script src="../assests/js/loadGeneralStructure.js"></script>
+    <script src="../assests/js/loadJsonData.js"></script>
 
-      <link rel="stylesheet" href="../assests/css/home.css">
-    </head>
+    <link rel="stylesheet" href="../assests/css/home.css">
+</head>
 
-    <body>
+<body>
 
-    <div id="header"></div>
+<div id="header"></div>
 
-    <div class="UpperBackground">
-      <img src="../assests/Images/FondoHome.jpg" alt="FondoHome">
-    </div>
+<div class="UpperBackground">
+    <img src="../assests/Images/FondoHome.jpg" alt="FondoHome">
+</div>
 
-    <div id="searchBar"></div>
+<div id="searchBar"></div>
 
-    <div class="Offer-section">
-      <h2 id="HeaderOferta"><b>OFERTAS</b></h2>
-      <div>
+<div class="Offer-section">
+    <h2 id="HeaderOferta"><b>OFERTAS</b></h2>
+    <div>
         <ul class="Offers" id="OffersList"></ul>
-      </div>
     </div>
+</div>
 
-    <div id="footer"></div>
+<div id="footer"></div>
 
-    <script>
-      loadGeneralStructure([
+<script>
+    loadGeneralStructure([
         { id: 'header', templatePath: '../templates/header.html' },
         { id: 'footer', templatePath: '../templates/footer.html' },
         { id: 'searchBar', templatePath: '../templates/search-fly-bar.html' }
-      ]);
-    </script>
+    ]).then(() => {
+        loadTemplatesWithData([
+            {
+                id: 'OffersList',
+                templatePath: '../templates/offers.html',
+                dataPath: '../assests/Json/flights.json',
+                repeat: true,
+                dataMapping: {
+                    'destino': '.oferta-destino',
+                    'duracion': '.oferta-detalles',
+                    'precio': '.oferta-precio strong',
+                    'imagen_destino': '.oferta-img-container img'
+                },
+                dataTransform: (item) => {
+                    return {
+                        destino: item.destino,
+                        duracion: `Duración: ${item.duracion}, Origen: ${item.origen}`,
+                        precio: `${item.precio.toFixed(2)} €`,
+                        imagen_destino: item.imagen_destino
+                    };
+                }
+            }
+        ]);
+    });
+</script>
 
-    <script src="../assests/js/LoadOffers.js">
-    </script>
-
-
-    </body>
+</body>
 
 </html>

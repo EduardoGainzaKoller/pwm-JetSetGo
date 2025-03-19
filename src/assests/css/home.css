@@ -72,6 +72,11 @@ body {
         padding: 10px;
     }
 
+    #OffersList {
+        display: flex;
+        flex-direction: column;
+    }
+
     .Offers li {
         width: 200px;
         min-width: 140px;

@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="../assests/css/flightSearch.css">
   <script src="../assests/js/loadTemplate.js"></script>
   <script src="../assests/js/loadGeneralStructure.js"></script>
+  <script src="../assests/js/loadJsonData.js"></script>
 </head>
 
 <body>
@@ -28,9 +29,29 @@
       { id: 'header', templatePath: '../templates/header.html' },
       { id: 'footer', templatePath: '../templates/footer.html' },
       { id: 'searchBar', templatePath: '../templates/search-hotel-bar.html' },
-      { id: 'filters', templatePath: '../templates/filters.html'},
-      { id: 'hotels', templatePath: '../templates/hotels.html', repeat: 10 }
-    ]);
+      { id: 'filters', templatePath: '../templates/filters.html'}
+    ]).then(() => {
+      loadTemplatesWithData([
+        {
+          id: 'hotels',
+          templatePath: '../templates/hotels.html',
+          dataPath: '../assests/Json/hotels.json',
+          repeat: true,
+          dataMapping: {
+            'nombre_del_hotel': '.nombre-hotel',
+            'precio': '.hotel-precio',
+            'valoración': '.valoracion-hotel',
+          },
+          dataTransform: (item) => {
+            return {
+              nombre_del_hotel: item.nombre_del_hotel,
+              precio: `${item.precio.toFixed(2)} €`,
+              valoración: item.valoración,
+            };
+          }
+        }
+      ]);
+    });
   </script>
 </body>
 
