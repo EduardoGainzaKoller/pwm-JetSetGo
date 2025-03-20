@@ -4,7 +4,8 @@
       "nombre_del_hotel": "Hotel Ritz Madrid",
       "precio": 250.00,
       "valoracion": 4.8,
-      "estrellas del hotel": 5,
+      "estrellas_del_hotel": 5,
+      "imagen_hotel": "../assests/Images/Hotel_Ritz_Madrid.jpg",
       "localizacion": {
         "ciudad": "Madrid",
         "pais": "España",
@@ -15,7 +16,8 @@
       "nombre_del_hotel": "Hotel Arts Barcelona",
       "precio": 300.00,
       "valoracion": 4.7,
-      "estrellas del hotel": 5,
+      "estrellas_del_hotel": 5,
+      "imagen_hotel": "../assests/Images/Hotel_Arts_Barcelona.jpg",
       "localizacion": {
         "ciudad": "Barcelona",
         "pais": "España",
@@ -26,7 +28,8 @@
       "nombre_del_hotel": "Hotel Alfonso XIII",
       "precio": 280.00,
       "valoracion": 4.9,
-      "estrellas del hotel": 5,
+      "estrellas_del_hotel": 5,
+      "imagen_hotel": "../assests/Images/Hotel_Alfonso_XIII.jpg",
       "localizacion": {
         "ciudad": "Sevilla",
         "pais": "España",
@@ -37,7 +40,8 @@
       "nombre_del_hotel": "Vincci Selección Gajo",
       "precio": 200.00,
       "valoracion": 4.5,
-      "estrellas del hotel": 4,
+      "estrellas_del_hotel": 4,
+      "imagen_hotel": "../assests/Images/Hotel_Vincci_Seleccion_Gajo.jpg",
       "localizacion": {
         "ciudad": "Madrid",
         "pais": "España",
@@ -48,7 +52,8 @@
       "nombre_del_hotel": "Hotel Maria Cristina",
       "precio": 320.00,
       "valoracion": 4.8,
-      "estrellas del hotel": 5,
+      "estrellas_del_hotel": 5,
+      "imagen_hotel": "../assests/Images/Hotel_Maria_Cristina.jpg",
       "localizacion": {
         "ciudad": "San Sebastián",
         "pais": "España",
@@ -59,7 +64,8 @@
       "nombre_del_hotel": "W Barcelona",
       "precio": 350.00,
       "valoracion": 4.6,
-      "estrellas del hotel": 5,
+      "estrellas_del_hotel": 5,
+      "imagen_hotel": "../assests/Images/Hotel_W_Barcelona.jpg",
       "localizacion": {
         "ciudad": "Barcelona",
         "pais": "España",
@@ -67,10 +73,11 @@
       }
     },
     {
-      "nombre del hotel": "Meliá Madrid",
+      "nombre_del_hotel": "Meliá Madrid",
       "precio": 180.00,
       "valoracion": 4.3,
-      "estrellas del hotel": 4,
+      "estrellas_del_hotel": 4,
+      "imagen_hotel": "../assests/Images/Hotel_Melia_Madrid.jpg",
       "localizacion": {
         "ciudad": "Madrid",
         "pais": "España",
@@ -78,10 +85,11 @@
       }
     },
     {
-      "nombre del hotel": "NH Collection Eurobuilding",
+      "nombre_del_hotel": "NH Collection Eurobuilding",
       "precio": 210.00,
       "valoracion": 4.4,
-      "estrellas del hotel": 4,
+      "estrellas_del_hotel": 4,
+      "imagen_hotel": "../assests/Images/Hotel_NH_Collection_Eurobuilding.jpg",
       "localizacion": {
         "ciudad": "Madrid",
         "pais": "España",
@@ -89,10 +97,11 @@
       }
     },
     {
-      "nombre del hotel": "Gran Meliá Palacio de los Duques",
+      "nombre_del_hotel": "Gran Meliá Palacio de los Duques",
       "precio": 260.00,
       "valoracion": 4.7,
-      "estrellas del hotel": 5,
+      "estrellas_del_hotel": 5,
+      "imagen_hotel": "../assests/Images/Hotel_Gran_Melia_Palacio_de_los_Duques.jpg",
       "localizacion": {
         "ciudad": "Madrid",
         "pais": "España",
@@ -100,10 +109,11 @@
       }
     },
     {
-      "nombre del hotel": "Barceló Torre de Madrid",
+      "nombre_del_hotel": "Barceló Torre de Madrid",
       "precio": 190.00,
       "valoracion": 4.2,
-      "estrellas del hotel": 4,
+      "estrellas_del_hotel": 4,
+      "imagen_hotel": "../assests/Images/Hotel_Barcelo_Torre_de_Madrid.jpg",
       "localizacion": {
         "ciudad": "Madrid",
         "pais": "España",

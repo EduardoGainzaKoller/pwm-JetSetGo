@@ -40,13 +40,15 @@
           dataMapping: {
             'nombre_del_hotel': '.nombre-hotel',
             'precio': '.hotel-precio',
-            'valoración': '.valoracion-hotel',
+            'valoracion': '.valoracion-hotel',
+            'imagen_hotel': '.hotel-icono'
           },
           dataTransform: (item) => {
             return {
               nombre_del_hotel: item.nombre_del_hotel,
               precio: `${item.precio.toFixed(2)} €`,
-              valoración: item.valoración,
+              valoracion: `valoración: ${item.valoracion}`,
+              imagen_hotel: item.imagen_hotel
             };
           }
         }
