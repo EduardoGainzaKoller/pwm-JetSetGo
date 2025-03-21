@@ -27,17 +27,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
 
-        const usuarioExistente = usuarios.find(user => user.email === email);
-        if (usuarioExistente) {
-            alert("Este email ya está registrado. Usa otro o inicia sesión.");
+        const usuario = usuarios.find(user => user.email === email);
+
+        if (!usuario) {
+            alert("El email no está registrado. Por favor, regístrate primero.");
             return;
         }
 
-        const nuevoUsuario = { email, password };
-        usuarios.push(nuevoUsuario);
-        localStorage.setItem("usuarios", JSON.stringify(usuarios));
+        if (usuario.password !== password) {
+            alert("Contraseña incorrecta.");
+            return;
+        }
 
-        alert("Registro exitoso. Redirigiendo a la página de inicio...");
+        alert("Inicio de sesión exitoso. Redirigiendo a la página de inicio...");
 
         form.reset();
 
