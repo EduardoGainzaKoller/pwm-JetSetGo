@@ -1,0 +1,208 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header principal */
+.main-header {
+    width: 100%;
+    height: 60px;
+    background-color: #FF7F50;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Contenedor de opciones */
+.options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Menú de opciones */
+.options-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.option img {
+    width: 24px;
+    height: 24px;
+}
+
+.option span {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Opciones de la derecha */
+.right-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.currency-selector {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+/* Icono redondo */
+.icon-circle {
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon-circle img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+}
+
+.dropdown-menu p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.dropdown-menu .btn {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #FF7F50;
+    color: white;
+}
+
+.dropdown-menu .btn:hover {
+    background: #e0673d;
+}
+
+/* Responsive */
+@media only screen and (max-width: 390px) {
+    .options-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+    .options-menu {
+        justify-content: center;
+        gap: 15px;
+    }
+    .right-options {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .option img {
+        width: 20px;
+        height: 20px;
+    }
+    .option span {
+        font-size: 13px;
+    }
+    .icon-circle {
+        width: 30px;
+        height: 30px;
+    }
+    .icon-circle img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 1024px) {
+    .main-header {
+        height: 60px;
+        padding-left: 20px;
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .options-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        gap: 20px;
+    }
+    .options-menu {
+        gap: 20px;
+    }
+    .option img {
+        width: 24px;
+        height: 24px;
+    }
+    .option span {
+        font-size: 14px;
+    }
+    .right-options {
+        gap: 20px;
+    }
+    .currency-selector {
+        padding: 5px;
+    }
+    .icon-circle {
+        width: 35px;
+        height: 35px;
+    }
+    .icon-circle img {
+        width: 20px;
+        height: 20px;
+    }
+}

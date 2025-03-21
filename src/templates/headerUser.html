@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Usuario</title>
+  <link rel="stylesheet" href="../assests/css/headerUser.css">
+</head>
+<body>
+<header class="main-header">
+  <div class="logo">
+    <a href="../pages/home.html">JetSetGo.com</a>
+  </div>
+</header>
+
+<div class="options-container">
+  <nav class="options-menu">
+    <div class="option">
+      <a href="../pages/home.html">
+        <img src="../assests/Images/hotel.png" alt="Hoteles">
+      </a>
+      <span>Hoteles</span>
+    </div>
+    <div class="option">
+      <a href="../pages/homeFlights.html">
+        <img src="../assests/Images/flight.png" alt="Vuelos">
+      </a>
+      <span>Vuelos</span>
+    </div>
+    <div class="option">
+      <a href="../pages/homeCars.html">
+        <img src="../assests/Images/car.png" alt="Alquiler de coches">
+      </a>
+      <span>Alquiler de coches</span>
+    </div>
+  </nav>
+
+  <div class="right-options">
+    <select class="currency-selector">
+      <option value="EUR">EUR</option>
+      <option value="USD">USD</option>
+    </select>
+    <div class="icon-circle">
+      <img src="../assests/Images/flag_spain.png" alt="Icono">
+    </div>
+
+    <!-- Contenedor de usuario y dropdown -->
+    <div class="dropdown" id="user-info">
+      <div class="icon-circle" id="user-icon">
+        <img src="../assests/Images/user.png" alt="Usuario">
+      </div>
+      <div class="dropdown-menu" id="user-dropdown">
+        <p id="user-email">usuario@ejemplo.com</p>
+        <button class="btn" id="logout-btn">Cerrar sesión</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Cargar el correo del usuario desde un archivo JSON (por ejemplo, ../data/user.json)
+    fetch('../data/user.json')
+            .then(response => response.json())
+            .then(data => {
+              document.getElementById('user-email').textContent = data.email;
+            })
+            .catch(error => {
+              console.error('Error al cargar los datos del usuario:', error);
+            });
+
+    // Toggle del menú desplegable al pulsar sobre el icono del usuario
+    document.getElementById('user-icon').addEventListener('click', function() {
+      var dropdown = document.getElementById('user-dropdown');
+      dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+    });
+
+    // Funcionalidad del botón de cerrar sesión
+    document.getElementById('logout-btn').addEventListener('click', function() {
+      // Aquí iría la lógica para cerrar sesión (por ejemplo, limpiar tokens, redirigir, etc.)
+      alert('Cerrando sesión...');
+      // Ejemplo de redirección a la página de login:
+      window.location.href = '../pages/logIn.html';
+    });
+  });
+</script>
+</body>
+</html>
