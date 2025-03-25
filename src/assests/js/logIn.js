@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const password = document.getElementById("password").value.trim();
 
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const passwordRegex = /^(?=.*[A-Z]).{6,}$/;  // Contraseña con al menos 6 caracteres y al menos una mayúscula
+        const passwordRegex = /^(?=.*[A-Z]).{6,}$/;
 
         if (!email || !password) {
             alert("Por favor, completa todos los campos.");
@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Contraseña incorrecta.");
             return;
         }
+
+        localStorage.setItem("usuarioLogueado", JSON.stringify(usuario));
 
         alert("Inicio de sesión exitoso. Redirigiendo a la página de inicio...");
 
