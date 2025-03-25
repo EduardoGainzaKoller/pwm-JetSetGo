@@ -7,13 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JetSetGo - Soporte</title>
 
-        <script src="../xlu-include-file.js"></script>
+        <script src="../assests/js/loadTemplate.js"></script>
+        <script src="../assests/js/loadGeneralStructure.js"></script>
 
         <link rel="stylesheet" href="../assests/css/footer-section.css">
     </head>
 
     <body>
-        <header xlu-include-file="../templates/header.html"></header>
+        <header id="header"></header>
 
         <div class="page-container">
             <div class="upper-content">
@@ -37,11 +38,15 @@
 
 
 
-        <footer xlu-include-file="../templates/footer.html"></footer>
+        <footer id="footer"></footer>
 
         <script>
-            xLuIncludeFile();
+            loadGeneralStructure([
+                { id: 'header', templatePath: '../templates/header.html' },
+                { id: 'footer', templatePath: '../templates/footer.html' }
+            ])
         </script>
+
 
 
     </body>
