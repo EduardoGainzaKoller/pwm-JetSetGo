@@ -80,7 +80,7 @@ footer {
     margin-top: auto;
 }
 
-@media only screen and (max-width: 390px) {
+@media screen and (max-width: 600px) {
     .contact-form {
         padding: 10px;
     }
@@ -104,8 +104,8 @@ footer {
     }
 }
 
-/* Estilos para iPad Pro (de 391px hasta 1024px) */
-@media only screen and (min-width: 391px) and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
     .contact-form {
         padding: 20px;
     }

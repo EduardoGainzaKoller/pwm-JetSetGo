@@ -49,7 +49,7 @@ body {
     border-radius: 5px;
     object-fit: cover;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 600px) {
 
     #HeaderOferta {
         margin-top: 10px;
@@ -83,7 +83,7 @@ body {
         height: auto;
     }
 }
-@media (min-width: 391px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     #HeaderOferta {
         margin-left: 30px;
         font-size: 20px;
