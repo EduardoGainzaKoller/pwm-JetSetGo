@@ -3,8 +3,8 @@
     {
       "origen": "Madrid",
       "destino": "Barcelona",
-      "Hora de salida": "07:00",
-      "hora de llegada": "08:30",
+      "hora_de_salida": "07:00",
+      "hora_de_llegada": "08:30",
       "duracion": "1h 30m",
       "precio": 80.50,
       "imagen_destino": "../assests/Images/barcelona.jpg"
@@ -12,8 +12,8 @@
     {
       "origen": "Barcelona",
       "destino": "Valencia",
-      "Hora de salida": "09:00",
-      "hora de llegada": "10:00",
+      "hora_de_salida": "09:00",
+      "hora_de_llegada": "10:00",
       "duracion": "1h 0m",
       "precio": 60.00,
       "imagen_destino": "../assests/Images/valencia.jpg"
@@ -21,8 +21,8 @@
     {
       "origen": "Sevilla",
       "destino": "Bilbao",
-      "Hora de salida": "10:15",
-      "hora de llegada": "12:45",
+      "hora_de_salida": "10:15",
+      "hora_de_llegada": "12:45",
       "duracion": "2h 30m",
       "precio": 120.75,
       "imagen_destino": "../assests/Images/bilbao.jpg"
@@ -30,8 +30,8 @@
     {
       "origen": "Valencia",
       "destino": "Madrid",
-      "Hora de salida": "13:00",
-      "hora de llegada": "14:15",
+      "hora_de_salida": "13:00",
+      "hora_de_llegada": "14:15",
       "duracion": "1h 15m",
       "precio": 70.00,
       "imagen_destino": "../assests/Images/madrid.jpg"
@@ -39,8 +39,8 @@
     {
       "origen": "Bilbao",
       "destino": "Sevilla",
-      "Hora de salida": "15:30",
-      "hora de llegada": "17:45",
+      "hora_de_salida": "15:30",
+      "hora_de_llegada": "17:45",
       "duracion": "2h 15m",
       "precio": 110.00,
       "imagen_destino": "../assests/Images/sevilla.jpg"
@@ -48,8 +48,8 @@
     {
       "origen": "Málaga",
       "destino": "Madrid",
-      "Hora de salida": "06:30",
-      "hora de llegada": "08:00",
+      "hora_de_salida": "06:30",
+      "hora_de_llegada": "08:00",
       "duracion": "1h 30m",
       "precio": 85.00,
       "imagen_destino": "../assests/Images/madrid.jpg"
@@ -57,8 +57,8 @@
     {
       "origen": "Granada",
       "destino": "Barcelona",
-      "Hora de salida": "12:00",
-      "hora de llegada": "13:30",
+      "hora_de_salida": "12:00",
+      "hora_de_llegada": "13:30",
       "duracion": "1h 30m",
       "precio": 95.00,
       "imagen_destino": "../assests/Images/barcelona.jpg"
@@ -66,8 +66,8 @@
     {
       "origen": "Zaragoza",
       "destino": "Madrid",
-      "Hora de salida": "11:00",
-      "hora de llegada": "12:15",
+      "hora_de_salida": "11:00",
+      "hora_de_llegada": "12:15",
       "duracion": "1h 15m",
       "precio": 65.50,
       "imagen_destino": "../assests/Images/madrid.jpg"
@@ -75,8 +75,8 @@
     {
       "origen": "Bilbao",
       "destino": "Valencia",
-      "Hora de salida": "14:00",
-      "hora de llegada": "15:45",
+      "hora_de_salida": "14:00",
+      "hora_de_llegada": "15:45",
       "duracion": "1h 45m",
       "precio": 75.25,
       "imagen_destino": "../assests/Images/valencia.jpg"
@@ -84,8 +84,8 @@
     {
       "origen": "Madrid",
       "destino": "Sevilla",
-      "Hora de salida": "17:00",
-      "hora de llegada": "18:45",
+      "hora_de_salida": "17:00",
+      "hora_de_llegada": "18:45",
       "duracion": "1h 45m",
       "precio": 90.00,
       "imagen_destino": "../assests/Images/sevilla.jpg"
