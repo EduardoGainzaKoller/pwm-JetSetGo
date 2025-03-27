@@ -6,6 +6,12 @@
     font-family: Arial, sans-serif;
 }
 
+.offerButton {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .oferta-container {
     display: flex;
     justify-content: flex-start;

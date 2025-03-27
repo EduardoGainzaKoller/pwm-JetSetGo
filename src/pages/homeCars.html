@@ -55,14 +55,16 @@
                     'destino': '.oferta-destino',
                     'duracion': '.oferta-detalles',
                     'precio': '.oferta-precio strong',
-                    'imagen_destino': '.oferta-img-container img'
+                    'imagen_destino': '.oferta-img-container img',
+                    'fecha_de_salida': '.oferta-fechas'
                 },
                 dataTransform: (item) => {
                     return {
                         destino: item.destino,
                         duracion: `Duración: ${item.duracion}, Origen: ${item.origen}`,
                         precio: `${item.precio.toFixed(2)} €`,
-                        imagen_destino: item.imagen_destino
+                        imagen_destino: item.imagen_destino,
+                        fecha_de_salida: `Fecha de salida: ${item.fecha_de_salida}`
                     };
                 }
             }
