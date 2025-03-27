@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Header Usuario</title>
   <link rel="stylesheet" href="../assests/css/headerUser.css">
+  <script src="../assests/js/logOut.js"></script>
 </head>
 
 <body>
@@ -57,32 +58,5 @@
   </div>
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Cargar el correo del usuario desde un archivo JSON (por ejemplo, ../data/user.json)
-    fetch('../data/user.json')
-            .then(response => response.json())
-            .then(data => {
-              document.getElementById('user-email').textContent = data.email;
-            })
-            .catch(error => {
-              console.error('Error al cargar los datos del usuario:', error);
-            });
-
-    // Toggle del menú desplegable al pulsar sobre el icono del usuario
-    document.getElementById('user-icon').addEventListener('click', function() {
-      var dropdown = document.getElementById('user-dropdown');
-      dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
-    });
-
-    // Funcionalidad del botón de cerrar sesión
-    document.getElementById('logout-btn').addEventListener('click', function() {
-      // Aquí iría la lógica para cerrar sesión (por ejemplo, limpiar tokens, redirigir, etc.)
-      alert('Cerrando sesión...');
-      // Ejemplo de redirección a la página de login:
-      window.location.href = '../pages/logIn.html';
-    });
-  });
-</script>
 </body>
 </html>
