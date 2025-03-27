@@ -20,15 +20,77 @@ body {
 
 .Offer-section {
     display: flex;
-    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 6%;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 #HeaderOferta {
-    display: flex;
-    margin-left: 20px;
-    font-family: system-ui, -apple-system,sans-serif ;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
+
+#HeaderOferta::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.Offer-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offer-description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.Offer-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.see-more-offers {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.Offer-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
 
 .Offers {
     display: grid;
@@ -54,7 +116,7 @@ body {
     #HeaderOferta {
         margin-top: 10px;
         width: 100%;
-        text-align: left;
+        text-align: center;
         margin-bottom: 5px;
     }
 

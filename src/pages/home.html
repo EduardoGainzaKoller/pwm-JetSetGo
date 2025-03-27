@@ -25,11 +25,18 @@
 <div id="searchBar"></div>
 
 <div class="Offer-section">
-    <h2 id="HeaderOferta"><b>OFERTAS</b></h2>
-    <div>
-        <ul class="Offers" id="OffersList"></ul>
+    <div class="Offer-header-container">
+        <h2 id="HeaderOferta"><b>OFERTAS</b></h2>
+        <div class="offer-description">
+            <p>Las mejores ofertas en vuelos seleccionadas especialmente para ti. ¡No te las pierdas!</p>
+        </div>
     </div>
 </div>
+
+<div class="Offer-selection">
+    <ul class="Offers" id="OffersList"></ul>
+</div>
+
 
 <div id="footer"></div>
 
@@ -49,14 +56,16 @@
                     'destino': '.oferta-destino',
                     'duracion': '.oferta-detalles',
                     'precio': '.oferta-precio strong',
-                    'imagen_destino': '.oferta-img-container img'
+                    'imagen_destino': '.oferta-img-container img',
+                    'fecha_de_salida': '.oferta-fechas'
                 },
                 dataTransform: (item) => {
                     return {
                         destino: item.destino,
                         duracion: `Duración: ${item.duracion}, Origen: ${item.origen}`,
                         precio: `${item.precio.toFixed(2)} €`,
-                        imagen_destino: item.imagen_destino
+                        imagen_destino: item.imagen_destino,
+                        fecha_de_salida: `Fecha de salida: ${item.fecha_de_salida}`
                     };
                 }
             }

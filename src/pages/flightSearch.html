@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Busqueda - Vuelos</title>
+  <meta charset="UTF-8">
+  <title>Busqueda - Vuelos</title>
   <link rel="stylesheet" href="../assests/css/flightSearch.css">
   <script src="../assests/js/loadTemplate.js"></script>
   <script src="../assests/js/loadGeneralStructure.js"></script>
   <script src="../assests/js/loadJsonData.js"></script>
 </head>
 <body>
-  <header id="header"></header>
+<header id="header"></header>
 
-  <div id="searchBar"></div>
+<div id="searchBar"></div>
 
-  <div class="content-page">
-    <div id="filters"></div>
-    <ul class="flights-results" id="flights"></ul>
-  </div>
+<div class="content-page">
+  <div id="filters"></div>
+  <ul class="flights-results" id="flights"></ul>
+</div>
 
 
-  <footer id="footer"></footer>
+<footer id="footer"></footer>
 
-  <script>
-    loadGeneralStructure([
-      { id: 'header', templatePath: '../templates/header.html' },
-      { id: 'footer', templatePath: '../templates/footer.html' },
-      { id: 'searchBar', templatePath: '../templates/search-fly-bar.html' },
-      { id: 'filters', templatePath: '../templates/filters.html'}
-    ]).then(() => {
-      loadTemplatesWithData([
-        {
-          id: 'flights',
-          templatePath: '../templates/flights.html',
-          dataPath: '../assests/Json/flights.json',
-          repeat: true,
-          dataMapping: {
-            'duracion': '.vuelo-duracion',
-            'precio': '.vuelo-precio',
-            'vuelo_tipo': '.vuelo-tipo',
-            'imagen_hotel': '.hotel-icono',
-            'hora_de_salida': '.vuelo-horario'
-          },
-          dataTransform: (item) => {
-            return {
-              duracion: item.duracion,
-              precio: `${item.precio.toFixed(2)} €`,
-              vuelo_tipo: 'directo',
-              hora_de_salida: `${item.hora_de_salida} -> ${item.hora_de_llegada}`,
-            };
-          }
+<script>
+  loadGeneralStructure([
+    { id: 'header', templatePath: '../templates/header.html' },
+    { id: 'footer', templatePath: '../templates/footer.html' },
+    { id: 'searchBar', templatePath: '../templates/search-fly-bar.html' },
+    { id: 'filters', templatePath: '../templates/filters.html'}
+  ]).then(() => {
+    loadTemplatesWithData([
+      {
+        id: 'flights',
+        templatePath: '../templates/flights.html',
+        dataPath: '../assests/Json/flights.json',
+        repeat: true,
+        dataMapping: {
+          'duracion': '.vuelo-duracion',
+          'precio': '.vuelo-precio',
+          'vuelo_tipo': '.vuelo-tipo',
+          'imagen_hotel': '.hotel-icono',
+          'hora_de_salida': '.vuelo-horario'
+        },
+        dataTransform: (item) => {
+          return {
+            duracion: item.duracion,
+            precio: `${item.precio.toFixed(2)} €`,
+            vuelo_tipo: 'directo',
+            hora_de_salida: `${item.hora_de_salida} -> ${item.hora_de_llegada}`,
+          };
         }
-      ]);
-    });
-  </script>
+      }
+    ]);
+  });
+</script>
 
 </body>
 </html>
