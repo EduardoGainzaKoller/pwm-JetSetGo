@@ -41,11 +41,23 @@
 <div id="footer"></div>
 
 <script>
-    loadGeneralStructure([
-        { id: 'header', templatePath: '../templates/header.html' },
-        { id: 'footer', templatePath: '../templates/footer.html' },
-        { id: 'searchBar', templatePath: '../templates/search-hotel-bar.html' }
-    ]).then(() => {
+    function getUserSession() {
+        return localStorage.getItem('usuarioLogueado');
+    }
+
+    function loadHeader() {
+        const headerTemplate = getUserSession()
+            ? '../templates/headerUser.html'
+            : '../templates/header.html';
+
+        return loadGeneralStructure([
+            { id: 'header', templatePath: headerTemplate },
+            { id: 'footer', templatePath: '../templates/footer.html' },
+            { id: 'searchBar', templatePath: '../templates/search-hotel-bar.html' }
+        ]);
+    }
+
+    loadHeader().then(() => {
         loadTemplatesWithData([
             {
                 id: 'OffersList',
@@ -72,6 +84,7 @@
         ]);
     });
 </script>
+
 
 </body>
 
