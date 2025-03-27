@@ -1,0 +1,128 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.offerButton {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.oferta-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0;
+    background-color: transparent;
+}
+
+.oferta-container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.oferta-card {
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgb(164, 160, 160);
+}
+
+
+.oferta-img-container {
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+
+.oferta-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.oferta-info {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.oferta-destino {
+    font-size: inherit;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.oferta-detalles,
+.oferta-fechas {
+    font-size: inherit;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.oferta-precio {
+    font-size: inherit;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .oferta-card {
+        background: transparent;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 240px;
+        height: 350px;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid rgb(164, 160, 160);
+    }
+
+    .oferta-img-container {
+        width: 90%;
+        height: 140px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 auto 15px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .oferta-card {
+        background: transparent;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 240px;
+        height: 350px;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid rgb(164, 160, 160);
+    }
+
+    .oferta-img-container {
+        width: 90%;
+        height: 140px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 auto 15px;
+    }
+}
