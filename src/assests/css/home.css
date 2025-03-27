@@ -83,7 +83,7 @@ body {
         height: auto;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     #HeaderOferta {
         margin-left: 30px;
         font-size: 20px;
