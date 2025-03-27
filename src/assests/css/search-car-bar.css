@@ -2,7 +2,7 @@
     background: #fff;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     gap: 15px;
     display: flex;
     justify-content: center;
@@ -59,78 +59,71 @@
     font-size: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 800px) {
     .search-bar {
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
         width: 90%;
         max-width: 350px;
-        margin: 0 auto;
-        padding: 10px;
         height: auto;
+        margin: 0 auto;
+        padding: 15px;
+        gap: 12px;
     }
 
     .search-section {
+        flex-wrap: wrap;
+        justify-content: center;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        padding: 0;
-        margin-bottom: 10px;
+        gap: 10px;
     }
 
-    .search-section input,
     .search-section select {
         width: 100%;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .time-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .time-section label {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+
+    .time-section input {
+        width: 80%;
         padding: 6px;
         border-radius: 5px;
         border: 1px solid #ccc;
         font-size: 14px;
-        background: #fff;
+        text-align: center;
     }
 
     .separator {
         display: none;
     }
 
-    .search-bar > p,
-    .search-bar .search-section p {
-        margin: 0;
-        font-size: 14px;
-        font-weight: 500;
-        text-align: left;
-        width: 100%;
-        padding-left: 2px;
-        margin-bottom: 5px;
-    }
-
-    .search-bar a {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
     .search-btn {
-        background: #ff7008;
-        border-radius: 8px;
-        width: 70px;
-        cursor: pointer;
-        padding: 8px;
-        color: #fff;
+        width: 100%;
+        max-width: 150px;
+        height: 45px;
         font-size: 16px;
+        padding: 10px;
+        border-radius: 8px;
+        transition: background 0.3s;
         text-align: center;
-        border: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
-    .search-btn span {
-        font-size: 20px;
+    .search-btn:hover {
+        background: #e66000;
     }
 }
+
+

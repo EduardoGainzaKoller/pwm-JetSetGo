@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Header Usuario</title>
   <link rel="stylesheet" href="../assests/css/headerUser.css">
 </head>
+
 <body>
 <header class="main-header">
   <div class="logo">
@@ -45,13 +47,11 @@
     </div>
 
     <!-- Contenedor de usuario y dropdown -->
-    <div class="dropdown" id="user-info">
-      <div class="icon-circle" id="user-icon">
-        <img src="../assests/Images/user.png" alt="Usuario">
-      </div>
+    <div class="dropdown">
+      <img src="../assests/Images/user.png" class="user-pic" id="user-icon" alt="Perfil">
       <div class="dropdown-menu" id="user-dropdown">
-        <p id="user-email">usuario@ejemplo.com</p>
-        <button class="btn" id="logout-btn">Cerrar sesión</button>
+        <p><strong>Alvarito Rodriguez</strong></p>
+        <a href="#" id="logout-btn"><img src="../assests/Images/logout.png"> Logout</a>
       </div>
     </div>
   </div>
