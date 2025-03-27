@@ -105,7 +105,7 @@
     background: #ff7f50;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .hotels-container {
         display: flex;
         flex-direction: column;
@@ -215,7 +215,7 @@
         background: #ff7f50;
     }
 }
-@media screen and (min-width: 601px) and (max-width: 1024px) {
+@media screen and (min-width: 801px) and (max-width: 1024px) {
     .hotels-container {
         display: flex;
         justify-content: center;
