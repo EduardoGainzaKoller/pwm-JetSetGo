@@ -1,0 +1,94 @@
+{
+  "flights": [
+    {
+      "origen": "Madrid",
+      "destino": "Barcelona",
+      "hora_de_salida": "07:00",
+      "hora_de_llegada": "08:30",
+      "duracion": "1h 30m",
+      "precio": 65.50,
+      "imagen_destino": "../assests/Images/barcelona.jpg"
+    },
+    {
+      "origen": "Barcelona",
+      "destino": "Valencia",
+      "hora_de_salida": "09:00",
+      "hora_de_llegada": "10:00",
+      "duracion": "1h 0m",
+      "precio": 40.00,
+      "imagen_destino": "../assests/Images/valencia.jpg"
+    },
+    {
+      "origen": "Sevilla",
+      "destino": "Bilbao",
+      "hora_de_salida": "10:15",
+      "hora_de_llegada": "12:45",
+      "duracion": "2h 30m",
+      "precio": 99.99,
+      "imagen_destino": "../assests/Images/bilbao.jpg"
+    },
+    {
+      "origen": "Valencia",
+      "destino": "Madrid",
+      "hora_de_salida": "13:00",
+      "hora_de_llegada": "14:15",
+      "duracion": "1h 15m",
+      "precio": 55.00,
+      "imagen_destino": "../assests/Images/madrid.jpg"
+    },
+    {
+      "origen": "Bilbao",
+      "destino": "Sevilla",
+      "hora_de_salida": "15:30",
+      "hora_de_llegada": "17:45",
+      "duracion": "2h 15m",
+      "precio": 100.00,
+      "imagen_destino": "../assests/Images/sevilla.jpg"
+    },
+    {
+      "origen": "Málaga",
+      "destino": "Madrid",
+      "hora_de_salida": "06:30",
+      "hora_de_llegada": "08:00",
+      "duracion": "1h 30m",
+      "precio": 15.00,
+      "imagen_destino": "../assests/Images/madrid.jpg"
+    },
+    {
+      "origen": "Granada",
+      "destino": "Barcelona",
+      "hora_de_salida": "12:00",
+      "hora_de_llegada": "13:30",
+      "duracion": "1h 30m",
+      "precio": 65.00,
+      "imagen_destino": "../assests/Images/barcelona.jpg"
+    },
+    {
+      "origen": "Zaragoza",
+      "destino": "Madrid",
+      "hora_de_salida": "11:00",
+      "hora_de_llegada": "12:15",
+      "duracion": "1h 15m",
+      "precio": 45.50,
+      "imagen_destino": "../assests/Images/madrid.jpg"
+    },
+    {
+      "origen": "Bilbao",
+      "destino": "Valencia",
+      "hora_de_salida": "14:00",
+      "hora_de_llegada": "15:45",
+      "duracion": "1h 45m",
+      "precio": 45.25,
+      "imagen_destino": "../assests/Images/valencia.jpg"
+    },
+    {
+      "origen": "Madrid",
+      "destino": "Sevilla",
+      "hora_de_salida": "17:00",
+      "hora_de_llegada": "18:45",
+      "duracion": "1h 45m",
+      "precio": 70.00,
+      "imagen_destino": "../assests/Images/sevilla.jpg"
+    }
+  ]
+}

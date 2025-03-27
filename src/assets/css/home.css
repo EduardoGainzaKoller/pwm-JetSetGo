@@ -83,7 +83,7 @@ body {
         height: auto;
     }
 }
-@media only screen and (min-width: 391px) and (max-width: 1024px) {
+@media (min-width: 391px) and (max-width: 1024px) {
     #HeaderOferta {
         margin-left: 30px;
         font-size: 20px;

@@ -39,6 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
+        localStorage.setItem("usuarioLogueado", JSON.stringify(usuario));
+
         alert("Inicio de sesión exitoso. Redirigiendo a la página de inicio...");
 
         form.reset();
