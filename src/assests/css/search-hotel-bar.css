@@ -57,7 +57,7 @@
 }
 
 
-@media (max-width: 390px) {
+@media screen and (max-width: 600px) {
     .search-bar {
         background: #fff;
         padding:10px;

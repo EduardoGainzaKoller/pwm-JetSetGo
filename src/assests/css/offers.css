@@ -26,7 +26,8 @@
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 240px;
+    width: 400px;
+    height: 500px;
     text-align: center;
     padding: 15px;
     border: 1px solid rgb(164, 160, 160);
@@ -34,8 +35,8 @@
 
 
 .oferta-img-container {
-    width: 90%;
-    height: 140px;
+    width: 100%;
+    height: 250px;
     border-radius: 10px;
     overflow: hidden;
     margin: 0 auto 15px;
@@ -74,5 +75,48 @@
     margin-top: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .oferta-card {
+        background: transparent;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 240px;
+        height: 350px;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid rgb(164, 160, 160);
+    }
+
+    .oferta-img-container {
+        width: 90%;
+        height: 140px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 auto 15px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .oferta-card {
+        background: transparent;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 240px;
+        height: 350px;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid rgb(164, 160, 160);
+    }
+
+    .oferta-img-container {
+        width: 90%;
+        height: 140px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 auto 15px;
+    }
+}
 
 

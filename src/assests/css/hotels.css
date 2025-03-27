@@ -105,8 +105,7 @@
     background: #ff7f50;
 }
 
-@media only screen and (max-width: 390px) {
-    /* Contenedor general */
+@media screen and (max-width: 600px) {
     .hotels-container {
         display: flex;
         flex-direction: column;
@@ -216,7 +215,7 @@
         background: #ff7f50;
     }
 }
-@media only screen and (min-width: 391px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     .hotels-container {
         display: flex;
         justify-content: center;

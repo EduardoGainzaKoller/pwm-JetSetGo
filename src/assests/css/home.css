@@ -24,6 +24,12 @@ body {
     margin-top: 6%;
 }
 
+.Offer-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
 #HeaderOferta {
     display: flex;
     margin-left: 20px;
@@ -49,7 +55,7 @@ body {
     border-radius: 5px;
     object-fit: cover;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 600px) {
 
     #HeaderOferta {
         margin-top: 10px;
@@ -83,7 +89,7 @@ body {
         height: auto;
     }
 }
-@media (min-width: 391px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     #HeaderOferta {
         margin-left: 30px;
         font-size: 20px;
