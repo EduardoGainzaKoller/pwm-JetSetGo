@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('logout-btn').addEventListener('click', function() {
-
         alert('Cerrando sesión...');
         localStorage.removeItem('usuarioLogueado');
         window.location.href = '../pages/logIn.html';

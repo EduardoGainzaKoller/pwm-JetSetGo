@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const usuarioLogueado = JSON.parse(localStorage.getItem("usuarioLogueado"));
+    const usuariosLogueados = JSON.parse(localStorage.getItem("usuarioLogueado"));
     const templateHome = document.getElementById("header");
+
+    alert(usuariosLogueados.length);
 
     if (templateHome) {
         templateHome.innerHTML = "";
     }
 
-    if (usuarioLogueado) {
+    if (usuariosLogueados.length > 0) {
         loadGeneralStructure([
             { id: 'header', templatePath: '../templates/headerUser.html' }
         ]);
