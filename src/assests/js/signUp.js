@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const nuevoUsuario = { email, password };
         usuarios.push(nuevoUsuario);
         localStorage.setItem("usuarios", JSON.stringify(usuarios));
+        localStorage.setItem("usuarioLogueado", JSON.stringify(nuevoUsuario));
 
         alert("Registro exitoso. Redirigiendo a la página de inicio...");
 

@@ -54,8 +54,19 @@
             { id: 'header', templatePath: headerTemplate },
             { id: 'footer', templatePath: '../templates/footer.html' },
             { id: 'searchBar', templatePath: '../templates/search-hotel-bar.html' }
-        ]);
+        ]).then(() => {
+            if (getUserSession()) {
+                const user = JSON.parse(localStorage.getItem('usuarioLogueado'));
+                const userEmail = user.email;
+
+                const userNameElement = document.getElementById('user-name');
+                if (userNameElement) {
+                    userNameElement.textContent = userEmail;
+                }
+            }
+        });
     }
+
 
     loadHeader().then(() => {
         loadTemplatesWithData([

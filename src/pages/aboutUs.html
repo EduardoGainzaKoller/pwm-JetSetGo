@@ -33,10 +33,32 @@
 
 
 <script>
-    loadGeneralStructure([
-        { id: 'header', templatePath: '../templates/header.html' },
-        { id: 'footer', templatePath: '../templates/footer.html' }
-    ])
+    function getUserSession() {
+        return localStorage.getItem('usuarioLogueado');
+    }
+
+    function loadHeader() {
+        const headerTemplate = getUserSession()
+            ? '../templates/headerUser.html'
+            : '../templates/header.html';
+
+        return loadGeneralStructure([
+            { id: 'header', templatePath: headerTemplate },
+            { id: 'footer', templatePath: '../templates/footer.html' },
+            { id: 'searchBar', templatePath: '../templates/search-hotel-bar.html' }
+        ]).then(() => {
+            if (getUserSession()) {
+                const user = JSON.parse(localStorage.getItem('usuarioLogueado'));
+                const userEmail = user.email;
+
+                const userNameElement = document.getElementById('user-name');
+                if (userNameElement) {
+                    userNameElement.textContent = userEmail;
+                }
+            }
+        });
+    }
+    loadHeader()
 </script>
 
 </body>
